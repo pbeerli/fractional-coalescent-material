@@ -1,0 +1,362 @@
+  =============================================
+    Example: Microsatellite data set           
+  =============================================
+  MIGRATION RATE AND POPULATION SIZE ESTIMATION
+  using Markov Chain Monte Carlo simulation
+  =============================================
+  Version debug 4.2.5
+
+  Program started at Fri Nov 27 11:00:09 2015
+         finished at Fri Nov 27 11:00:25 2015
+     
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)       Slice sampling
+Migration rate      (M)       Slice sampling
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta
+-------------------------  ------------ ---------- ---------- ---------- ----------
+Population size (Theta_1)      Uniform  0.000000  10.000000  20.000000   2.000000 
+Population size (Theta_2)      Uniform  0.000000  10.000000  20.000000   2.000000 
+Migration 1 to 2 (M)      Uniform  0.000000  10.000000  20.000000   2.000000 
+
+
+
+Datatype: Microsatellite data [Brownian motion]
+Missing data is not included
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (from parmfile)            310705631
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 population     * 0 
+   2 population     * * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):                 10000
+      Steps recorded (sample*rep):                     10000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):                 5000
+
+Print options:
+   Data file:                                    infile.msat
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                   outfile-bayes
+   Output file (PDF):                      outfile-bayes.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                      Example: Microsatellite data set
+Data file:                                       infile.msat
+Datatype:                     Microsatellite data [Brownian]
+  [Data was used as repeat-length information]
+Number of loci:                                           10
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Brownian Motion [none]
+     2         1 Brownian Motion [none]
+     3         1 Brownian Motion [none]
+     4         1 Brownian Motion [none]
+     5         1 Brownian Motion [none]
+     6         1 Brownian Motion [none]
+     7         1 Brownian Motion [none]
+     8         1 Brownian Motion [none]
+     9         1 Brownian Motion [none]
+    10         1 Brownian Motion [none]
+
+
+
+Allele frequency spectra
+========================
+
+Locus 1
+Allele  Pop1   Pop2   All
+----------------------------
+    16  0.220  0.167  0.196
+    19  0.040  0.071  0.054
+    18  0.060  0.119  0.087
+    15  0.220  0.024  0.130
+    21  0.020  0.167  0.087
+    23  0.020  0.119  0.065
+    17  0.280  0.095  0.196
+    22  0.060  0.119  0.087
+    25  0.060  0.024  0.043
+    24  0.020    -    0.011
+    26    -    0.024  0.011
+    27    -    0.048  0.022
+    29    -    0.024  0.011
+Alleles   10     12     13
+Samples   50     42     92
+H_exp   0.811  0.883  0.874
+
+Locus 2
+Allele  Pop1   Pop2   All
+----------------------------
+    16  0.520  0.571  0.543
+    19  0.040    -    0.022
+    18  0.220  0.119  0.174
+    17  0.160  0.167  0.163
+    15  0.020    -    0.011
+    21  0.020  0.071  0.043
+    20  0.020  0.024  0.022
+    22    -    0.048  0.022
+Alleles    7      6      8
+Samples   50     42     92
+H_exp   0.653  0.624  0.644
+
+Locus 3
+Allele  Pop1   Pop2   All
+----------------------------
+    19  0.240  0.262  0.250
+    20  0.280  0.476  0.370
+    18  0.080  0.095  0.087
+    21  0.280  0.119  0.207
+    22  0.120  0.048  0.087
+Alleles    5      5      5
+Samples   50     42     92
+H_exp   0.765  0.679  0.743
+
+Locus 4
+Allele  Pop1   Pop2   All
+----------------------------
+    16  0.080  0.071  0.076
+    24  0.180  0.024  0.109
+    15  0.020  0.048  0.033
+    25  0.160  0.167  0.163
+    14  0.020  0.048  0.033
+    19  0.100  0.143  0.120
+    12  0.060    -    0.033
+    20  0.080  0.190  0.130
+    23  0.060  0.119  0.087
+    28  0.020    -    0.011
+    22  0.060  0.024  0.043
+    21  0.160  0.119  0.141
+    13    -    0.024  0.011
+    26    -    0.024  0.011
+Alleles   12     12     14
+Samples   50     42     92
+H_exp   0.882  0.875  0.892
+
+Locus 5
+Allele  Pop1   Pop2   All
+----------------------------
+    20  0.400  0.524  0.457
+    21  0.420  0.357  0.391
+    19  0.180  0.119  0.152
+Alleles    3      3      3
+Samples   50     42     92
+H_exp   0.631  0.584  0.615
+
+Locus 6
+Allele  Pop1   Pop2   All
+----------------------------
+    19  0.060    -    0.033
+    20  0.100  0.024  0.065
+    18  0.300  0.214  0.261
+    22  0.200  0.119  0.163
+    21  0.120  0.476  0.283
+    16  0.060    -    0.033
+    24  0.160  0.048  0.109
+    17    -    0.119  0.054
+Alleles    7      6      8
+Samples   50     42     92
+H_exp   0.813  0.696  0.804
+
+Locus 7
+Allele  Pop1   Pop2   All
+----------------------------
+    23  0.040  0.238  0.130
+    20  0.660  0.143  0.424
+    22  0.180  0.190  0.185
+    21  0.100  0.333  0.207
+    19  0.020  0.095  0.054
+Alleles    5      5      5
+Samples   50     42     92
+H_exp   0.520  0.766  0.724
+
+Locus 8
+Allele  Pop1   Pop2   All
+----------------------------
+    19  0.520  0.524  0.522
+    17  0.040  0.048  0.043
+    18  0.100  0.071  0.087
+    20  0.140  0.190  0.163
+    16  0.080    -    0.043
+    22  0.100  0.048  0.076
+    15  0.020  0.048  0.033
+    23    -    0.071  0.033
+Alleles    7      7      8
+Samples   50     42     92
+H_exp   0.682  0.672  0.682
+
+Locus 9
+Allele  Pop1   Pop2   All
+----------------------------
+    24  0.080  0.024  0.054
+    19  0.300  0.429  0.359
+    20  0.300  0.167  0.239
+    23  0.180  0.143  0.163
+    22  0.080  0.024  0.054
+    18  0.020  0.071  0.043
+    21  0.040  0.095  0.065
+    25    -    0.048  0.022
+Alleles    7      8      8
+Samples   50     42     92
+H_exp   0.773  0.751  0.775
+
+Locus 10
+Allele  Pop1   Pop2   All
+----------------------------
+    22  0.100  0.214  0.152
+    20  0.440  0.214  0.337
+    23  0.080  0.167  0.120
+    24  0.020    -    0.011
+    19  0.160  0.167  0.163
+    21  0.060  0.048  0.054
+    18  0.080    -    0.043
+    15  0.020  0.071  0.043
+    17  0.040  0.048  0.043
+    25    -    0.071  0.033
+Alleles    9      8     10
+Samples   50     42     92
+H_exp   0.752  0.838  0.813
+
+Average expected heterozygosity
+Pop1   Pop2   All
+---------------------
+0.728  0.737  0.757
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         9.28000 11.64000 13.98000 15.04000 19.92000 14.34000 14.51016
+    1  Theta_2         7.08000 16.76000 19.18000 19.88000 20.00000 15.30000 14.63657
+    1  M_1->2          1.72000  2.32000  3.30000  4.84000  8.40000  4.42000  4.75014
+    2  Theta_1         5.48000 10.40000 13.46000 15.92000 18.68000 12.50000 12.34998
+    2  Theta_2         1.16000  1.28000  2.50000  4.24000  4.92000  4.98000  7.59189
+    2  M_1->2          0.64000  1.24000  2.18000  3.28000  7.32000  3.46000  3.73808
+    3  Theta_1         8.88000 11.28000 13.38000 14.96000 18.92000 13.62000 13.73221
+    3  Theta_2         4.08000  4.44000  6.18000  8.80000 19.16000 10.50000 11.11347
+    3  M_1->2          1.08000  1.92000  3.10000  4.40000 10.68000  3.98000  4.89304
+    4  Theta_1        13.76000 17.48000 19.18000 19.72000 20.00000 17.82000 17.54064
+    4  Theta_2        12.36000 17.56000 19.22000 19.92000 20.00000 17.70000 17.21356
+    4  M_1->2          0.88000  1.60000  2.22000  2.84000  4.64000  2.50000  2.58231
+    5  Theta_1         1.92000  2.60000  3.26000  4.08000  7.24000  4.34000  4.45623
+    5  Theta_2         2.96000  5.08000  5.86000  9.24000 14.52000 10.98000 11.34493
+    5  M_1->2          2.40000  3.84000  5.62000  7.20000 13.72000  6.58000  7.29475
+    6  Theta_1        12.32000 16.00000 17.22000 19.04000 20.00000 16.74000 16.48717
+    6  Theta_2         3.20000  7.00000  8.78000 10.24000 13.92000  8.46000  8.64856
+    6  M_1->2          0.16000  0.96000  1.54000  2.40000  3.96000  1.94000  1.98615
+    7  Theta_1         4.44000  5.68000  7.10000  8.72000 13.32000  7.98000  8.42471
+    7  Theta_2         3.76000  5.96000  7.58000  9.88000 16.00000  8.66000  9.22116
+    7  M_1->2          0.36000  0.88000  1.54000  2.32000  4.32000  2.02000  2.17708
+    8  Theta_1         4.88000  9.44000 10.98000 12.32000 16.00000 10.74000 10.68421
+    8  Theta_2         6.16000  8.72000 10.38000 13.04000 19.96000 12.02000 12.40034
+    8  M_1->2          0.52000  0.80000  1.86000  2.88000  3.24000  4.02000  5.74218
+    9  Theta_1        10.92000 12.40000 15.06000 16.56000 18.96000 14.02000 13.70250
+    9  Theta_2        10.56000 16.52000 19.18000 19.80000 20.00000 16.50000 16.06862
+    9  M_1->2          0.80000  1.68000  2.22000  2.88000  4.20000  2.46000  2.50530
+   10  Theta_1        13.92000 16.92000 17.74000 19.32000 20.00000 17.50000 17.33407
+   10  Theta_2         9.16000 17.08000 19.18000 19.60000 20.00000 15.26000 15.07356
+   10  M_1->2          2.64000  5.08000  6.18000  7.72000 10.52000  6.46000  6.31573
+  All  Theta_1         1.88000  2.68000  3.18000  3.60000  4.44000  3.22000  3.19120
+  All  Theta_2         1.04000  1.64000  2.06000  2.44000  3.08000  2.10000  2.07194
+  All  M_1->2         12.40000 15.00000 16.02000 17.88000 19.44000 16.06000 14.64271
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1              -3753.49                       -729.30                -124.69
+      2               -733.06                       -215.35                 -91.29
+      3               -682.63                       -211.56                 -98.68
+      4              -5666.53                      -1047.63                -127.28
+      5               -218.73                       -110.96                 -70.54
+      6              -3015.22                       -595.52                -104.78
+      7               -650.85                       -198.90                 -85.76
+      8               -594.49                       -199.68                -105.34
+      9              -5394.03                       -973.49                -105.04
+     10              -3212.46                       -640.85                -109.17
+---------------------------------------------------------------------------------------
+  All               -23936.71                      -4938.46               -1037.79
+[Scaling factor = -15.214551]
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                  16435/16435             1.00000
+Theta_2                  16804/16804             1.00000
+M_1->2                   16609/16609             1.00000
+Genealogies              17143/50152              0.34182
+
+Autocorrelation and Effective sample size
+-------------------------------------------------------------------
+
+  Parameter         Autocorrelation(*)   Effective Sample size
+  ---------         ---------------      ---------------------
+  Theta_1                0.93637              3307.80
+  Theta_2                0.91193              4623.87
+  M_1->2                 0.91482              4461.34
+  Ln[Prob(D|P)]          0.99479               261.24
+  (*) averaged over loci.
+

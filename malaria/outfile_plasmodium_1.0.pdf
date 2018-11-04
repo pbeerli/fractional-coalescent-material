@@ -1,0 +1,2517 @@
+%PDF-1.2
+%·¾­ª
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [8 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R ]
+/Count 9
+>>
+endobj
+3 0 obj
+<<
+/Producer (HARU\040Free\040PDF\040Library\040Version\0401.2.0\040Beta5)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/FirstChar 32
+/LastChar 255
+/Encoding /StandardEncoding
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Oblique
+/FirstChar 32
+/LastChar 255
+/Encoding /StandardEncoding
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Symbol
+/FirstChar 32
+/LastChar 254
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/FirstChar 32
+/LastChar 255
+/Encoding /StandardEncoding
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Length 10 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0401) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\040\135) Tj
+ET
+/F0 10 Tf
+/F1 24 Tf
+BT
+55.908 692 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135) Tj
+ET
+0 0 0 RG
+50 666 m
+562 666 l
+S
+/F0 12 Tf
+BT
+55 642 Td
+(POPULATION\040SIZE,\040MIGRATION,\040DIVERGENCE,\040ASSIGNMENT,\040HISTORY) Tj
+ET
+BT
+55 627 Td
+(Bayesian\040inference\040using\040the\040structured\040coalescent) Tj
+ET
+BT
+55 612 Td
+(Migrate-n\040version\0405.0.3a\040\133January-08-2018\135) Tj
+ET
+BT
+55 597 Td
+(\040\040Using\040Intel\040AVX\040\050Advanced\040Vector\040Extensions\051\012) Tj
+ET
+BT
+55 582 Td
+(\040\040Compiled\040for\040PARALLEL\040computer\040architectures\012) Tj
+ET
+BT
+55 567 Td
+(\040\040One\040master\040and\04010\040compute\040nodes\040are\040available.\012) Tj
+ET
+BT
+55 552 Td
+(Program\040started\040at\040\040\040\040Sun\040Oct\04028\04009:29:43\0402018) Tj
+ET
+50 522 m
+562 522 l
+S
+1 w
+0 0 0 RG
+0.99 0 0 rg
+470.5982 631.717 m
+470.5982 638.4596 477.9981 643.9254 487.1266 643.9254 c
+496.2551 643.9254 503.655 638.4596 503.655 631.7171 c
+503.655 624.9745 496.2551 619.5087 487.1266 619.5087 c
+477.9981 619.5087 470.5982 624.9745 470.5982 631.7171 c
+B
+0 0.1 0.9 rg
+506.5982 631.717 m
+506.5982 638.4596 513.9981 643.9254 523.1266 643.9254 c
+532.2551 643.9254 539.655 638.4596 539.655 631.7171 c
+539.655 624.9745 532.2551 619.5087 523.1266 619.5087 c
+513.9981 619.5087 506.5982 624.9745 506.5982 631.7171 c
+B
+4 w
+477.3599 632.7612 m
+477.3599 614.7156 l
+488.2535 614.7156 l
+488.2861 632.7612 l
+S
+497.9539 632.7612 m
+498.0202 609.8318 l
+510.4166 609.8318 l
+510.341 632.7612 l
+S
+521.3683 632.7612 m
+521.3103 604.1974 l
+504.5865 604.1974 l
+504.5865 609.8318 l
+S
+531.8285 632.7612 m
+531.8285 595.9329 l
+513.2266 595.9329 l
+513.2521 604.0561 l
+S
+522.8543 579.5554 m
+522.9199 595.8985 l
+S
+482.9904 579.7076 m
+482.9904 614.6422 l
+S
+/F1 18 Tf
+0 0 0 RG
+0 0 0 rg
+1 w
+BT
+274.986 477 Td
+(Options) Tj
+ET
+50 457 m
+562 457 l
+S
+/F0 10 Tf
+BT
+55 437 Td
+(Datatype:) Tj
+ET
+BT
+464.73 437 Td
+(DNA\040sequence\040data\012) Tj
+ET
+BT
+55 407 Td
+(Inheritance\040scalers\040in\040use\040for\040Thetas:) Tj
+ET
+BT
+55 392 Td
+(All\040loci\040use\040an\040inheritance\040scaler\040of\0401.0) Tj
+ET
+BT
+55 377 Td
+(\133The\040locus\040with\040a\040scaler\040of\0401.0\040used\040as\040reference\135) Tj
+ET
+BT
+55 362 Td
+(Random\040number\040seed:) Tj
+ET
+BT
+385.81 362 Td
+(\050with\040internal\040timer\051\040\040\040\040\040\040\040\040\040\040\0403813319001) Tj
+ET
+BT
+55 347 Td
+(Start\040parameters:) Tj
+ET
+BT
+55 317 Td
+(Theta\040values\040were\040generated) Tj
+ET
+BT
+406.93 317 Td
+(\040Using\040a\040percent\040value\040of\040the\040prior) Tj
+ET
+BT
+55 287 Td
+(M\040values\040were\040generated) Tj
+ET
+BT
+406.93 287 Td
+(\040Using\040a\040percent\040value\040of\040the\040prior) Tj
+ET
+BT
+55 257 Td
+(Connection\040matrix:) Tj
+ET
+BT
+60 242 Td
+(m\040=\040average\040\050average\040over\040a\040group\040of\040Thetas\040or\040M,) Tj
+ET
+BT
+60 227 Td
+(s\040=\040symmetric\040migration\040M,\040S\040=\040symmetric\0404Nm,) Tj
+ET
+BT
+60 212 Td
+(0\040=\040zero,\040and\040not\040estimated,) Tj
+ET
+BT
+60 197 Td
+(*\040=\040migration\040free\040to\040vary,\040Thetas\040are\040on\040diagonal) Tj
+ET
+BT
+60 182 Td
+(d\040=\040row\040population\040split\040off\040column\040population,\040D\040=\040split\040and\040then\040migration) Tj
+ET
+BT
+55 152 Td
+(Population) Tj
+ET
+BT
+160 152 Td
+(\040\0401) Tj
+ET
+BT
+55 137 Td
+(\040\0401\040Africa\040\040\040\040\040\040\040\040\040) Tj
+ET
+BT
+165 137 Td
+(\040*) Tj
+ET
+BT
+60 92 Td
+(Order\040of\040parameters:) Tj
+ET
+BT
+60 77 Td
+(\040\040\0401\040) Tj
+ET
+/F2 12 Tf
+BT
+140 77 Td
+(Q) Tj
+ET
+/F2 9 Tf
+BT
+149.6 72.5 Td
+(1) Tj
+ET
+/F0 10 Tf
+BT
+290 77 Td
+(\074displayed\076) Tj
+ET
+/F0 12 Tf
+BT
+55 537 Td
+(Program\040finished\040at\040\040\040Sun\040Oct\04028\04010:19:40\0402018\040\133Runtime:0000:00:49:57\135) Tj
+ET
+
+endstream
+endobj
+10 0 obj
+4004
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 13 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0402) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+BT
+60 707 Td
+(Mutation\040rate\040among\040loci:) Tj
+ET
+BT
+440.28 707 Td
+(Mutation\040rate\040is\040constant\040) Tj
+ET
+BT
+60 677 Td
+(Analysis\040strategy:) Tj
+ET
+BT
+466.96 677 Td
+(Bayesian\040inference) Tj
+ET
+BT
+60 662 Td
+(\040-Population\040size\040estimation:) Tj
+ET
+BT
+446.96 662 Td
+(Exponential\040Distribution) Tj
+ET
+BT
+60 632 Td
+(Proposal\040distributions\040for\040parameter) Tj
+ET
+BT
+55 617 Td
+(Parameter) Tj
+ET
+BT
+255.54 617 Td
+(Proposal) Tj
+ET
+BT
+55 602 Td
+(Theta) Tj
+ET
+BT
+206.09 602 Td
+(Metropolis\040sampling) Tj
+ET
+BT
+55 587 Td
+(M) Tj
+ET
+BT
+206.09 587 Td
+(Metropolis\040sampling) Tj
+ET
+BT
+55 572 Td
+(Divergence) Tj
+ET
+BT
+206.09 572 Td
+(Metropolis\040sampling) Tj
+ET
+BT
+55 557 Td
+(Divergence\040Spread) Tj
+ET
+BT
+206.09 557 Td
+(Metropolis\040sampling) Tj
+ET
+BT
+55 542 Td
+(Genealogy) Tj
+ET
+BT
+206.65 542 Td
+(Metropolis-Hastings) Tj
+ET
+BT
+60 512 Td
+(Prior\040distribution\040for\040parameter) Tj
+ET
+BT
+55 497 Td
+(Parameter) Tj
+ET
+BT
+137.22 497 Td
+(\040) Tj
+ET
+BT
+152.22 497 Td
+(\040) Tj
+ET
+BT
+157.22 497 Td
+(\040) Tj
+ET
+BT
+183.89 497 Td
+(Prior) Tj
+ET
+BT
+224.45 497 Td
+(Minimum) Tj
+ET
+BT
+286.1 497 Td
+(Mean*) Tj
+ET
+BT
+311.67 497 Td
+(Maximum) Tj
+ET
+BT
+391.66 497 Td
+(Delta) Tj
+ET
+BT
+455.55 497 Td
+(Bins) Tj
+ET
+BT
+482.2 497 Td
+(UpdateFreq) Tj
+ET
+BT
+55 482 Td
+(\040\0401) Tj
+ET
+BT
+114.43 482 Td
+(Theta) Tj
+ET
+BT
+146.11 482 Td
+(-1) Tj
+ET
+BT
+151.11 482 Td
+(-1) Tj
+ET
+BT
+152.75 482 Td
+(Exponential) Tj
+ET
+BT
+220.52 482 Td
+(0.000000\040) Tj
+ET
+BT
+289.98 482 Td
+(0.020) Tj
+ET
+BT
+329.98 482 Td
+(0.900) Tj
+ET
+BT
+400.55 482 Td
+(\040\040\040\040-) Tj
+ET
+BT
+449.98 482 Td
+(5000\040) Tj
+ET
+BT
+498.86 482 Td
+(0.20000) Tj
+ET
+BT
+60 467 Td
+(\133-1\040-1\040means\040priors\040were\040set\040globally\135) Tj
+ET
+BT
+60 437 Td
+(Markov\040chain\040settings:) Tj
+ET
+BT
+503.08 437 Td
+(Long\040chain) Tj
+ET
+BT
+60 422 Td
+(Number\040of\040chains) Tj
+ET
+BT
+483.62 422 Td
+(\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0401) Tj
+ET
+BT
+70 407 Td
+(Recorded\040steps\040\133a\135) Tj
+ET
+BT
+472.5 407 Td
+(\040\040\040\040\040\040\040\040\040\040\040\040\040\040\04010000) Tj
+ET
+BT
+70 392 Td
+(Increment\040\050record\040every\040x\040step\040\133b\135) Tj
+ET
+BT
+475.28 392 Td
+(\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0401000) Tj
+ET
+BT
+70 377 Td
+(Number\040of\040concurrent\040chains\040\050replicates\051\040\133c\135) Tj
+ET
+BT
+397.22 377 Td
+(\040) Tj
+ET
+BT
+480.84 377 Td
+(\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\04010) Tj
+ET
+BT
+70 362 Td
+(Visited\040\050sampled\051\040parameter\040values\040\133a*b*c\135) Tj
+ET
+BT
+461.38 362 Td
+(\040\040\040\040\040\040\040\040\040\040\040100000000) Tj
+ET
+BT
+70 347 Td
+(Number\040of\040discard\040trees\040per\040chain\040\050burn-in\051) Tj
+ET
+BT
+516.98 347 Td
+(\0405000) Tj
+ET
+BT
+60 317 Td
+(Multiple\040Markov\040chains:) Tj
+ET
+BT
+70 302 Td
+(Static\040heating\040scheme) Tj
+ET
+BT
+429.73 302 Td
+(4\040chains\040with\040\040temperatures) Tj
+ET
+BT
+351.4 287 Td
+(1000000.00\040) Tj
+ET
+BT
+431.98 287 Td
+(\0403.00\040) Tj
+ET
+BT
+481.98 287 Td
+(\0401.50\040) Tj
+ET
+BT
+531.98 287 Td
+(\0401.00\040) Tj
+ET
+BT
+451.96 272 Td
+(Swapping\040interval\040is\0401\012) Tj
+ET
+BT
+60 242 Td
+(Print\040options:\012) Tj
+ET
+BT
+70 227 Td
+(Data\040file:) Tj
+ET
+BT
+474.76 227 Td
+(infile.plasmodium) Tj
+ET
+BT
+70 212 Td
+(Haplotyping\040is\040turned\040on:) Tj
+ET
+BT
+537 212 Td
+(NO) Tj
+ET
+BT
+70 197 Td
+(Output\040file:) Tj
+ET
+BT
+446.4 197 Td
+(outfile_plasmodium_1.0) Tj
+ET
+BT
+70 182 Td
+(Posterior\040distribution\040raw\040histogram\040file:) Tj
+ET
+BT
+509.76 182 Td
+(bayesfile\012) Tj
+ET
+BT
+70 167 Td
+(Raw\040data\040from\040the\040MCMC\040run:) Tj
+ET
+BT
+420.84 167 Td
+(bayesallfile_plasmodium_1.0\012) Tj
+ET
+BT
+70 152 Td
+(Print\040data:) Tj
+ET
+BT
+419.68 152 Td
+(\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040No) Tj
+ET
+BT
+70 137 Td
+(Print\040genealogies\040\133only\040some\040for\040some\040data\040type\135:) Tj
+ET
+BT
+528.1 137 Td
+(None) Tj
+ET
+
+endstream
+endobj
+13 0 obj
+4317
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 15 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 16 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0403) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 18 Tf
+BT
+247.491 697 Td
+(Data\040summary) Tj
+ET
+0 0 0 RG
+50 677 m
+562 677 l
+S
+/F0 10 Tf
+BT
+60 657 Td
+(Data\040file:) Tj
+ET
+BT
+474.76 657 Td
+(infile.plasmodium) Tj
+ET
+BT
+60 642 Td
+(Datatype:) Tj
+ET
+BT
+484.73 642 Td
+(Sequence\040data) Tj
+ET
+BT
+60 627 Td
+(Number\040of\040loci:) Tj
+ET
+BT
+546.44 627 Td
+(1) Tj
+ET
+BT
+60 597 Td
+(Mutationmodel:) Tj
+ET
+BT
+60 582 Td
+(Locus) Tj
+ET
+BT
+90 582 Td
+(Sublocus) Tj
+ET
+BT
+150 582 Td
+(Mutationmodel) Tj
+ET
+BT
+260 582 Td
+(Mutationmodel\040parameters) Tj
+ET
+BT
+60 552 Td
+(\040\040\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\0401\040\040\040\040\040\040\040\040\040\040\040HKY\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\133Bf:0.32\0400.16\0400.16\0400.36,\040kappa=1.556\135\012) Tj
+ET
+BT
+60 507 Td
+(Sites\040per\040locus) Tj
+ET
+BT
+60 492 Td
+(Locus) Tj
+ET
+BT
+160 492 Td
+(Sites\012) Tj
+ET
+BT
+60 477 Td
+(\040\040\040\040\0401) Tj
+ET
+BT
+137.76 477 Td
+(5949) Tj
+ET
+BT
+60 447 Td
+(Site\040rate\040variation\040and\040probabilities:) Tj
+ET
+BT
+60 432 Td
+(Locus\040Sublocus\040Region\040type\040\040\040\040\040Rate\040of\040change\040\040\040\040Probability\040\040Patch\040size) Tj
+ET
+50 417 m
+562 417 l
+S
+BT
+60 402 Td
+(\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0400.416\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0400.709\040\040\040\040\040\040\040\040\040\0401.000) Tj
+ET
+BT
+60 387 Td
+(\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0402\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0402.282\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0400.280\040\040\040\040\040\040\040\040\040\0401.000) Tj
+ET
+BT
+60 372 Td
+(\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\0401\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0403\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0406.243\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\0400.010\040\040\040\040\040\040\040\040\040\0401.000) Tj
+ET
+BT
+60 342 Td
+(Population) Tj
+ET
+BT
+360 342 Td
+(Locus) Tj
+ET
+BT
+460 342 Td
+(Gene\040copies) Tj
+ET
+BT
+60 327 Td
+(1\040Africa) Tj
+ET
+BT
+374.44 327 Td
+(1) Tj
+ET
+BT
+448.88 327 Td
+(31) Tj
+ET
+BT
+60 312 Td
+(Total\040of\040all\040populations) Tj
+ET
+BT
+374.44 312 Td
+(1) Tj
+ET
+BT
+448.88 312 Td
+(31) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+2815
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0404) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 18 Tf
+BT
+123.93 697 Td
+(Bayesian\040Analysis:\040Posterior\040distribution\040table) Tj
+ET
+0 0 0 RG
+50 677 m
+562 677 l
+S
+/F0 10 Tf
+60 637 m
+552 637 l
+S
+BT
+61 622 Td
+(Locus) Tj
+ET
+BT
+100 622 Td
+(Parameter) Tj
+ET
+BT
+172.21 622 Td
+(2.5\045) Tj
+ET
+BT
+222.65 622 Td
+(25.0\045) Tj
+ET
+BT
+281.99 622 Td
+(Mode) Tj
+ET
+BT
+334.65 622 Td
+(75.0\045) Tj
+ET
+BT
+390.65 622 Td
+(97.5\045) Tj
+ET
+BT
+442.21 622 Td
+(Median) Tj
+ET
+BT
+505.99 622 Td
+(Mean) Tj
+ET
+60 607 m
+552 607 l
+S
+BT
+61 592 Td
+(\040\040\040\0401\040) Tj
+ET
+/F2 11 Tf
+BT
+100 592 Td
+(Q) Tj
+ET
+/F2 8 Tf
+BT
+110 588 Td
+(1) Tj
+ET
+/F0 10 Tf
+/F0 10 Tf
+BT
+156.08 592 Td
+(\0400.00000) Tj
+ET
+BT
+212.08 592 Td
+(\0400.00000) Tj
+ET
+BT
+268.08 592 Td
+(\0400.00171) Tj
+ET
+BT
+324.08 592 Td
+(\0400.00522) Tj
+ET
+BT
+380.08 592 Td
+(\0400.01170) Tj
+ET
+BT
+436.08 592 Td
+(\0400.00531) Tj
+ET
+BT
+492.08 592 Td
+(\0400.00166) Tj
+ET
+60 577 m
+552 577 l
+S
+BT
+60 562 Td
+(Citation\040suggestions:) Tj
+ET
+BT
+60 532 Td
+(Beerli\040P.,\0402006.\040Comparison\040of\040Bayesian\040and\040maximum-likelihood\040inference\040of\040population\040genetic\040parameters.) Tj
+ET
+BT
+60 517 Td
+(\040\040\040\040Bioinformatics\04022:341-345) Tj
+ET
+BT
+60 502 Td
+(Beerli\040P.,\0402007.\040Estimation\040of\040the\040population\040scaled\040mutation\040rate\040from\040microsatellite\040data,) Tj
+ET
+BT
+60 487 Td
+(\040\040\040\040Genetics,\040177:1967-1968.) Tj
+ET
+BT
+60 472 Td
+(Beerli\040P.,\0402009.\040How\040to\040use\040MIGRATE\040or\040why\040are\040Markov\040chain\040Monte\040Carlo\040programs\040difficult\040to\040use?) Tj
+ET
+BT
+60 457 Td
+(\040\040\040\040In\040Population\040Genetics\040for\040Animal\040Conservation,\040G.\040Bertorelle,\040M.\040W.\040Bruford,\040H.\040C.\040Hauffe,\040A.\040Rizzoli,) Tj
+ET
+BT
+60 442 Td
+(\040\040\040\040and\040C.\040Vernesi,\040eds.,\040vol.\04017\040of\040Conservation\040Biology,\040Cambridge\040University\040Press,\040Cambridge\040UK,\040pp.\04042-79.) Tj
+ET
+
+endstream
+endobj
+19 0 obj
+2196
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 21 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 22 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0405) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 16 Tf
+BT
+124.6 692 Td
+(Bayesian\040Analysis:\040Posterior\040distribution\040for\040locus\0401) Tj
+ET
+0 0 0 RG
+50 666 m
+562 666 l
+S
+/F0 10 Tf
+BT
+70 601 Td
+(Freq) Tj
+ET
+/F2 12 Tf
+BT
+180 451 Td
+(Q) Tj
+ET
+/F2 9 Tf
+BT
+189.6 446.5 Td
+(1) Tj
+ET
+/F0 10 Tf
+100 476 m
+100 592 l
+S
+BT
+69.98 473 Td
+(0.000) Tj
+ET
+100 476 m
+97 476 l
+S
+BT
+69.98 505.42184 Td
+(0.005) Tj
+ET
+100 508.42184 m
+97 508.42184 l
+S
+BT
+69.98 537.84367 Td
+(0.010) Tj
+ET
+100 540.84367 m
+97 540.84367 l
+S
+BT
+69.98 570.26551 Td
+(0.015) Tj
+ET
+100 573.26551 m
+97 573.26551 l
+S
+100 476 m
+287 476 l
+S
+BT
+87.49 463 Td
+(0.000) Tj
+ET
+100 476 m
+100 473 l
+S
+BT
+159.63506 463 Td
+(0.010) Tj
+ET
+172.14506 476 m
+172.14506 473 l
+S
+BT
+231.78013 463 Td
+(0.020) Tj
+ET
+244.29013 476 m
+244.29013 473 l
+S
+1.29861 w
+0.1 0.1 0.1 RG
+100.66595 476 m
+100.66595 590.19986 l
+S
+0.99 0 0 rg
+100.16595 0 0 0 rg
+0.1 0.1 0.1 RG
+101.96457 476 m
+101.96457 590.58955 l
+S
+0.99 0 0 rg
+101.46457 0 0 0 rg
+0.1 0.1 0.1 RG
+103.26318 476 m
+103.26318 590.93183 l
+S
+0.99 0 0 rg
+102.76318 0 0 0 rg
+0.1 0.1 0.1 RG
+104.56179 476 m
+104.56179 591.22668 l
+S
+0.99 0 0 rg
+104.06179 0 0 0 rg
+0.1 0.1 0.1 RG
+105.8604 476 m
+105.8604 591.47411 l
+S
+0.99 0 0 rg
+105.3604 0 0 0 rg
+0.1 0.1 0.1 RG
+107.15901 476 m
+107.15901 591.67413 l
+S
+0.99 0 0 rg
+106.65901 0 0 0 rg
+0.1 0.1 0.1 RG
+108.45762 476 m
+108.45762 591.82673 l
+S
+0.99 0 0 rg
+107.95762 0 0 0 rg
+0.1 0.1 0.1 RG
+109.75623 476 m
+109.75623 591.9319 l
+S
+0.99 0 0 rg
+109.25623 0 0 0 rg
+0.1 0.1 0.1 RG
+111.05484 476 m
+111.05484 591.98966 l
+S
+0.99 0 0 rg
+110.55484 0 0 0 rg
+0.1 0.1 0.1 RG
+112.35345 476 m
+112.35345 592 l
+S
+0.99 0 0 rg
+111.85345 0 0 0 rg
+0.1 0.1 0.1 RG
+113.65207 476 m
+113.65207 591.96292 l
+S
+0.99 0 0 rg
+113.15207 0 0 0 rg
+0.1 0.1 0.1 RG
+114.95068 476 m
+114.95068 591.87842 l
+S
+0.99 0 0 rg
+114.45068 0 0 0 rg
+0.1 0.1 0.1 RG
+116.24929 476 m
+116.24929 591.7465 l
+S
+0.99 0 0 rg
+115.74929 0 0 0 rg
+0.1 0.1 0.1 RG
+117.5479 476 m
+117.5479 591.56716 l
+S
+0.99 0 0 rg
+117.0479 0 0 0 rg
+0.1 0.1 0.1 RG
+118.84651 476 m
+118.84651 591.3404 l
+S
+0.99 0 0 rg
+118.34651 0 0 0 rg
+0.1 0.1 0.1 RG
+120.14512 476 m
+120.14512 591.06622 l
+S
+0.99 0 0 rg
+119.64512 0 0 0 rg
+0.1 0.1 0.1 RG
+121.44373 476 m
+121.44373 590.74463 l
+S
+0.99 0 0 rg
+120.94373 0 0 0 rg
+0.1 0.1 0.1 RG
+122.74234 476 m
+122.74234 590.37561 l
+S
+0.99 0 0 rg
+122.24234 0 0 0 rg
+0.1 0.1 0.1 RG
+124.04095 476 m
+124.04095 589.95917 l
+S
+0.99 0 0 rg
+123.54095 0 0 0 rg
+0.1 0.1 0.1 RG
+125.33957 476 m
+125.33957 589.49532 l
+S
+0.99 0 0 rg
+124.83957 0 0 0 rg
+0.1 0.1 0.1 RG
+126.63818 476 m
+126.63818 588.98404 l
+S
+0.99 0 0 rg
+126.13818 0 0 0 rg
+0.1 0.1 0.1 RG
+127.93679 476 m
+127.93679 588.42535 l
+S
+0.99 0 0 rg
+127.43679 0 0 0 rg
+0.1 0.1 0.1 RG
+129.2354 476 m
+129.2354 587.81924 l
+S
+0.99 0 0 rg
+128.7354 0 0 0 rg
+0.1 0.1 0.1 RG
+130.53401 476 m
+130.53401 587.1657 l
+S
+0.99 0 0 rg
+130.03401 0 0 0 rg
+0.1 0.1 0.1 RG
+131.83262 476 m
+131.83262 586.46475 l
+S
+0.99 0 0 rg
+131.33262 0 0 0 rg
+0.1 0.1 0.1 RG
+133.13123 476 m
+133.13123 585.71638 l
+S
+0.99 0 0 rg
+132.63123 0 0 0 rg
+0.1 0.1 0.1 RG
+134.42984 476 m
+134.42984 584.92059 l
+S
+0.99 0 0 rg
+133.92984 0 0 0 rg
+0.1 0.1 0.1 RG
+135.72845 476 m
+135.72845 584.07741 l
+S
+0.99 0 0 rg
+135.22845 0 0 0 rg
+0.1 0.1 0.1 RG
+137.02707 476 m
+137.02707 583.18682 l
+S
+0.99 0 0 rg
+136.52707 0 0 0 rg
+0.4 0.4 0.4 RG
+138.32568 476 m
+138.32568 582.2488 l
+S
+0.99 0 0 rg
+137.82568 0 0 0 rg
+0.4 0.4 0.4 RG
+139.62429 476 m
+139.62429 581.26336 l
+S
+0.99 0 0 rg
+139.12429 0 0 0 rg
+0.4 0.4 0.4 RG
+140.9229 476 m
+140.9229 580.23051 l
+S
+0.99 0 0 rg
+140.4229 0 0 0 rg
+0.4 0.4 0.4 RG
+142.22151 476 m
+142.22151 579.15023 l
+S
+0.99 0 0 rg
+141.72151 0 0 0 rg
+0.4 0.4 0.4 RG
+143.52012 476 m
+143.52012 578.02253 l
+S
+0.99 0 0 rg
+143.02012 0 0 0 rg
+0.4 0.4 0.4 RG
+144.81873 476 m
+144.81873 576.84742 l
+S
+0.99 0 0 rg
+144.31873 0 0 0 rg
+0.4 0.4 0.4 RG
+146.11734 476 m
+146.11734 575.62488 l
+S
+0.99 0 0 rg
+145.61734 0 0 0 rg
+0.4 0.4 0.4 RG
+147.41595 476 m
+147.41595 574.35493 l
+S
+0.99 0 0 rg
+146.91595 0 0 0 rg
+0.4 0.4 0.4 RG
+148.71457 476 m
+148.71457 573.03755 l
+S
+0.99 0 0 rg
+148.21457 0 0 0 rg
+0.4 0.4 0.4 RG
+150.01318 476 m
+150.01318 571.67276 l
+S
+0.99 0 0 rg
+149.51318 0 0 0 rg
+0.4 0.4 0.4 RG
+151.31179 476 m
+151.31179 570.26054 l
+S
+0.99 0 0 rg
+150.81179 0 0 0 rg
+0.4 0.4 0.4 RG
+152.6104 476 m
+152.6104 568.80091 l
+S
+0.99 0 0 rg
+152.1104 0 0 0 rg
+0.4 0.4 0.4 RG
+153.90901 476 m
+153.90901 567.29385 l
+S
+0.99 0 0 rg
+153.40901 0 0 0 rg
+0.4 0.4 0.4 RG
+155.20762 476 m
+155.20762 565.73938 l
+S
+0.99 0 0 rg
+154.70762 0 0 0 rg
+0.4 0.4 0.4 RG
+156.50623 476 m
+156.50623 564.13748 l
+S
+0.99 0 0 rg
+156.00623 0 0 0 rg
+0.4 0.4 0.4 RG
+157.80484 476 m
+157.80484 562.48817 l
+S
+0.99 0 0 rg
+157.30484 0 0 0 rg
+0.4 0.4 0.4 RG
+159.10345 476 m
+159.10345 560.79144 l
+S
+0.99 0 0 rg
+158.60345 0 0 0 rg
+0.4 0.4 0.4 RG
+160.40207 476 m
+160.40207 559.04728 l
+S
+0.99 0 0 rg
+159.90207 0 0 0 rg
+0.4 0.4 0.4 RG
+161.70068 476 m
+161.70068 557.25571 l
+S
+0.99 0 0 rg
+161.20068 0 0 0 rg
+0.4 0.4 0.4 RG
+162.99929 476 m
+162.99929 555.41671 l
+S
+0.99 0 0 rg
+162.49929 0 0 0 rg
+0.4 0.4 0.4 RG
+164.2979 476 m
+164.2979 553.5303 l
+S
+0.99 0 0 rg
+163.7979 0 0 0 rg
+0.4 0.4 0.4 RG
+165.59651 476 m
+165.59651 551.59647 l
+S
+0.99 0 0 rg
+165.09651 0 0 0 rg
+0.4 0.4 0.4 RG
+166.89512 476 m
+166.89512 549.61521 l
+S
+0.99 0 0 rg
+166.39512 0 0 0 rg
+0.4 0.4 0.4 RG
+168.19373 476 m
+168.19373 547.58654 l
+S
+0.99 0 0 rg
+167.69373 0 0 0 rg
+0.4 0.4 0.4 RG
+169.49234 476 m
+169.49234 545.51045 l
+S
+0.99 0 0 rg
+168.99234 0 0 0 rg
+0.4 0.4 0.4 RG
+170.79095 476 m
+170.79095 543.38694 l
+S
+0.99 0 0 rg
+170.29095 0 0 0 rg
+0.4 0.4 0.4 RG
+172.08957 476 m
+172.08957 541.216 l
+S
+0.99 0 0 rg
+171.58957 0 0 0 rg
+0.4 0.4 0.4 RG
+173.38818 476 m
+173.38818 538.99765 l
+S
+0.99 0 0 rg
+172.88818 0 0 0 rg
+0.4 0.4 0.4 RG
+174.68679 476 m
+174.68679 536.73188 l
+S
+0.99 0 0 rg
+174.18679 0 0 0 rg
+0.4 0.4 0.4 RG
+175.9854 476 m
+175.9854 534.41869 l
+S
+0.99 0 0 rg
+175.4854 0 0 0 rg
+0.4 0.4 0.4 RG
+177.28401 476 m
+177.28401 532.05808 l
+S
+0.99 0 0 rg
+176.78401 0 0 0 rg
+0.4 0.4 0.4 RG
+178.58262 476 m
+178.58262 529.65005 l
+S
+0.99 0 0 rg
+178.08262 0 0 0 rg
+0.4 0.4 0.4 RG
+179.88123 476 m
+179.88123 527.19459 l
+S
+0.99 0 0 rg
+179.38123 0 0 0 rg
+0.4 0.4 0.4 RG
+181.17984 476 m
+181.17984 524.69172 l
+S
+0.99 0 0 rg
+180.67984 0 0 0 rg
+0.4 0.4 0.4 RG
+182.47845 476 m
+182.47845 522.14143 l
+S
+0.99 0 0 rg
+181.97845 0 0 0 rg
+0.4 0.4 0.4 RG
+183.77707 476 m
+183.77707 519.54372 l
+S
+0.99 0 0 rg
+183.27707 0 0 0 rg
+0.8 0.8 0.8 RG
+185.07568 476 m
+185.07568 516.89859 l
+S
+0.99 0 0 rg
+184.57568 0 0 0 rg
+0.8 0.8 0.8 RG
+186.37429 476 m
+186.37429 514.20604 l
+S
+0.99 0 0 rg
+185.87429 0 0 0 rg
+0.8 0.8 0.8 RG
+187.6729 476 m
+187.6729 511.46607 l
+S
+0.99 0 0 rg
+187.1729 0 0 0 rg
+0.8 0.8 0.8 RG
+188.97151 476 m
+188.97151 508.67868 l
+S
+0.99 0 0 rg
+188.47151 0 0 0 rg
+0.8 0.8 0.8 RG
+190.27012 476 m
+190.27012 505.84387 l
+S
+0.99 0 0 rg
+189.77012 0 0 0 rg
+0.8 0.8 0.8 RG
+191.56873 476 m
+191.56873 502.96164 l
+S
+0.99 0 0 rg
+191.06873 0 0 0 rg
+0.8 0.8 0.8 RG
+192.86734 476 m
+192.86734 500.03199 l
+S
+0.99 0 0 rg
+192.36734 0 0 0 rg
+0.8 0.8 0.8 RG
+194.16595 476 m
+194.16595 497.05492 l
+S
+0.99 0 0 rg
+193.66595 0 0 0 rg
+0.8 0.8 0.8 RG
+195.46457 476 m
+195.46457 494.03083 l
+S
+0.99 0 0 rg
+194.96457 0 0 0 rg
+0.8 0.8 0.8 RG
+196.76318 476 m
+196.76318 490.96689 l
+S
+0.99 0 0 rg
+196.26318 0 0 0 rg
+0.8 0.8 0.8 RG
+198.06179 476 m
+198.06179 487.90993 l
+S
+0.99 0 0 rg
+197.56179 0 0 0 rg
+0.8 0.8 0.8 RG
+199.3604 476 m
+199.3604 485.00661 l
+S
+0.99 0 0 rg
+198.8604 0 0 0 rg
+0.8 0.8 0.8 RG
+200.65901 476 m
+200.65901 482.45412 l
+S
+0.99 0 0 rg
+200.15901 0 0 0 rg
+0.8 0.8 0.8 RG
+201.95762 476 m
+201.95762 480.40837 l
+S
+0.99 0 0 rg
+201.45762 0 0 0 rg
+0.8 0.8 0.8 RG
+203.25623 476 m
+203.25623 478.88839 l
+S
+0.99 0 0 rg
+202.75623 0 0 0 rg
+0.8 0.8 0.8 RG
+204.55484 476 m
+204.55484 477.84304 l
+S
+0.99 0 0 rg
+204.05484 0 0 0 rg
+0.8 0.8 0.8 RG
+205.85345 476 m
+205.85345 477.16089 l
+S
+0.99 0 0 rg
+205.35345 0 0 0 rg
+0.8 0.8 0.8 RG
+207.15207 476 m
+207.15207 476.73184 l
+S
+0.99 0 0 rg
+206.65207 0 0 0 rg
+0.8 0.8 0.8 RG
+208.45068 476 m
+208.45068 476.46316 l
+S
+0.99 0 0 rg
+207.95068 0 0 0 rg
+0.8 0.8 0.8 RG
+209.74929 476 m
+209.74929 476.29607 l
+S
+0.99 0 0 rg
+209.24929 0 0 0 rg
+0.8 0.8 0.8 RG
+211.0479 476 m
+211.0479 476.19442 l
+S
+0.99 0 0 rg
+210.5479 0 0 0 rg
+0.8 0.8 0.8 RG
+212.34651 476 m
+212.34651 476.13102 l
+S
+0.99 0 0 rg
+211.84651 0 0 0 rg
+0.8 0.8 0.8 RG
+213.64512 476 m
+213.64512 476.09145 l
+S
+0.99 0 0 rg
+213.14512 0 0 0 rg
+0.8 0.8 0.8 RG
+214.94373 476 m
+214.94373 476.06597 l
+S
+0.99 0 0 rg
+214.44373 0 0 0 rg
+0.8 0.8 0.8 RG
+216.24234 476 m
+216.24234 476.0489 l
+S
+0.99 0 0 rg
+215.74234 0 0 0 rg
+0.8 0.8 0.8 RG
+217.54095 476 m
+217.54095 476.03666 l
+S
+0.99 0 0 rg
+217.04095 0 0 0 rg
+0.8 0.8 0.8 RG
+218.83957 476 m
+218.83957 476.02848 l
+S
+0.99 0 0 rg
+218.33957 0 0 0 rg
+0.8 0.8 0.8 RG
+220.13818 476 m
+220.13818 476.02238 l
+S
+0.99 0 0 rg
+219.63818 0 0 0 rg
+0.8 0.8 0.8 RG
+221.43679 476 m
+221.43679 476.01769 l
+S
+0.99 0 0 rg
+220.93679 0 0 0 rg
+0.8 0.8 0.8 RG
+222.7354 476 m
+222.7354 476.0144 l
+S
+0.99 0 0 rg
+222.2354 0 0 0 rg
+0.8 0.8 0.8 RG
+224.03401 476 m
+224.03401 476.01186 l
+S
+0.99 0 0 rg
+223.53401 0 0 0 rg
+0.8 0.8 0.8 RG
+225.33262 476 m
+225.33262 476.00996 l
+S
+0.99 0 0 rg
+224.83262 0 0 0 rg
+0.8 0.8 0.8 RG
+226.63123 476 m
+226.63123 476.00842 l
+S
+0.99 0 0 rg
+226.13123 0 0 0 rg
+0.8 0.8 0.8 RG
+227.92984 476 m
+227.92984 476.0072 l
+S
+0.99 0 0 rg
+227.42984 0 0 0 rg
+0.8 0.8 0.8 RG
+229.22845 476 m
+229.22845 476.00622 l
+S
+0.99 0 0 rg
+228.72845 0 0 0 rg
+0.8 0.8 0.8 RG
+230.52707 476 m
+230.52707 476.00536 l
+S
+0.99 0 0 rg
+230.02707 0 0 0 rg
+0.8 0.8 0.8 RG
+231.82568 476 m
+231.82568 476.00462 l
+S
+0.99 0 0 rg
+231.32568 0 0 0 rg
+0.8 0.8 0.8 RG
+233.12429 476 m
+233.12429 476.004 l
+S
+0.99 0 0 rg
+232.62429 0 0 0 rg
+0.8 0.8 0.8 RG
+234.4229 476 m
+234.4229 476.00357 l
+S
+0.99 0 0 rg
+233.9229 0 0 0 rg
+0.8 0.8 0.8 RG
+235.72151 476 m
+235.72151 476.00324 l
+S
+0.99 0 0 rg
+235.22151 0 0 0 rg
+0.8 0.8 0.8 RG
+237.02012 476 m
+237.02012 476.00293 l
+S
+0.99 0 0 rg
+236.52012 0 0 0 rg
+0.8 0.8 0.8 RG
+238.31873 476 m
+238.31873 476.00269 l
+S
+0.99 0 0 rg
+237.81873 0 0 0 rg
+0.8 0.8 0.8 RG
+239.61734 476 m
+239.61734 476.00247 l
+S
+0.99 0 0 rg
+239.11734 0 0 0 rg
+0.8 0.8 0.8 RG
+240.91595 476 m
+240.91595 476.00229 l
+S
+0.99 0 0 rg
+240.41595 0 0 0 rg
+0.8 0.8 0.8 RG
+242.21457 476 m
+242.21457 476.0021 l
+S
+0.99 0 0 rg
+241.71457 0 0 0 rg
+0.8 0.8 0.8 RG
+243.51318 476 m
+243.51318 476.00191 l
+S
+0.99 0 0 rg
+243.01318 0 0 0 rg
+0.8 0.8 0.8 RG
+244.81179 476 m
+244.81179 476.00171 l
+S
+0.99 0 0 rg
+244.31179 0 0 0 rg
+0.8 0.8 0.8 RG
+246.1104 476 m
+246.1104 476.00155 l
+S
+0.99 0 0 rg
+245.6104 0 0 0 rg
+0.8 0.8 0.8 RG
+247.40901 476 m
+247.40901 476.00144 l
+S
+0.99 0 0 rg
+246.90901 0 0 0 rg
+0.8 0.8 0.8 RG
+248.70762 476 m
+248.70762 476.00137 l
+S
+0.99 0 0 rg
+248.20762 0 0 0 rg
+0.8 0.8 0.8 RG
+250.00623 476 m
+250.00623 476.0013 l
+S
+0.99 0 0 rg
+249.50623 0 0 0 rg
+0.8 0.8 0.8 RG
+251.30484 476 m
+251.30484 476.00123 l
+S
+0.99 0 0 rg
+250.80484 0 0 0 rg
+0.8 0.8 0.8 RG
+252.60345 476 m
+252.60345 476.00116 l
+S
+0.99 0 0 rg
+252.10345 0 0 0 rg
+0.8 0.8 0.8 RG
+253.90207 476 m
+253.90207 476.00108 l
+S
+0.99 0 0 rg
+253.40207 0 0 0 rg
+0.8 0.8 0.8 RG
+255.20068 476 m
+255.20068 476.00104 l
+S
+0.99 0 0 rg
+254.70068 0 0 0 rg
+0.8 0.8 0.8 RG
+256.49929 476 m
+256.49929 476.00103 l
+S
+0.99 0 0 rg
+255.99929 0 0 0 rg
+0.8 0.8 0.8 RG
+257.7979 476 m
+257.7979 476.00101 l
+S
+0.99 0 0 rg
+257.2979 0 0 0 rg
+0.8 0.8 0.8 RG
+259.09651 476 m
+259.09651 476.001 l
+S
+0.99 0 0 rg
+258.59651 0 0 0 rg
+0.8 0.8 0.8 RG
+260.39512 476 m
+260.39512 476.00099 l
+S
+0.99 0 0 rg
+259.89512 0 0 0 rg
+0.8 0.8 0.8 RG
+261.69373 476 m
+261.69373 476.00098 l
+S
+0.99 0 0 rg
+261.19373 0 0 0 rg
+0.8 0.8 0.8 RG
+262.99234 476 m
+262.99234 476.00096 l
+S
+0.99 0 0 rg
+262.49234 0 0 0 rg
+0.8 0.8 0.8 RG
+264.29095 476 m
+264.29095 476.00095 l
+S
+0.99 0 0 rg
+263.79095 0 0 0 rg
+0.8 0.8 0.8 RG
+265.58957 476 m
+265.58957 476.00093 l
+S
+0.99 0 0 rg
+265.08957 0 0 0 rg
+0.8 0.8 0.8 RG
+266.88818 476 m
+266.88818 476.00092 l
+S
+0.99 0 0 rg
+266.38818 0 0 0 rg
+0.8 0.8 0.8 RG
+268.18679 476 m
+268.18679 476.0009 l
+S
+0.99 0 0 rg
+267.68679 0 0 0 rg
+0.8 0.8 0.8 RG
+269.4854 476 m
+269.4854 476.00089 l
+S
+0.99 0 0 rg
+268.9854 0 0 0 rg
+0.8 0.8 0.8 RG
+270.78401 476 m
+270.78401 476.00087 l
+S
+0.99 0 0 rg
+270.28401 0 0 0 rg
+0.8 0.8 0.8 RG
+272.08262 476 m
+272.08262 476.00085 l
+S
+0.99 0 0 rg
+271.58262 0 0 0 rg
+0.8 0.8 0.8 RG
+273.38123 476 m
+273.38123 476.00084 l
+S
+0.99 0 0 rg
+272.88123 0 0 0 rg
+0.8 0.8 0.8 RG
+274.67984 476 m
+274.67984 476.00082 l
+S
+0.99 0 0 rg
+274.17984 0 0 0 rg
+0.8 0.8 0.8 RG
+275.97845 476 m
+275.97845 476.0008 l
+S
+0.99 0 0 rg
+275.47845 0 0 0 rg
+0.8 0.8 0.8 RG
+277.27707 476 m
+277.27707 476.00078 l
+S
+0.99 0 0 rg
+276.77707 0 0 0 rg
+0.8 0.8 0.8 RG
+278.57568 476 m
+278.57568 476.00076 l
+S
+0.99 0 0 rg
+278.07568 0 0 0 rg
+0.8 0.8 0.8 RG
+279.87429 476 m
+279.87429 476.00074 l
+S
+0.99 0 0 rg
+279.37429 0 0 0 rg
+0.8 0.8 0.8 RG
+281.1729 476 m
+281.1729 476.00072 l
+S
+0.99 0 0 rg
+280.6729 0 0 0 rg
+0.8 0.8 0.8 RG
+282.47151 476 m
+282.47151 476.0007 l
+S
+0.99 0 0 rg
+281.97151 0 0 0 rg
+0.8 0.8 0.8 RG
+283.77012 476 m
+283.77012 476.00068 l
+S
+0.99 0 0 rg
+283.27012 0 0 0 rg
+0.8 0.8 0.8 RG
+285.06873 476 m
+285.06873 476.00066 l
+S
+0.99 0 0 rg
+284.56873 0 0 0 rg
+0.8 0.8 0.8 RG
+286.36734 476 m
+286.36734 476.00064 l
+S
+0.99 0 0 rg
+285.86734 0 0 0 rg
+0 0 0 RG
+1 w
+
+endstream
+endobj
+22 0 obj
+13361
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 25 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0406) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 16 Tf
+BT
+80.128 692 Td
+(Log-Probability\040of\040the\040data\040given\040the\040model\040\050marginal\040likelihood\051) Tj
+ET
+0 0 0 RG
+50 666 m
+562 666 l
+S
+/F0 10 Tf
+BT
+55 636 Td
+(Use\040this\040value\040for\040Bayes\040factor\040calculations:) Tj
+ET
+BT
+55 621 Td
+(BF\040=\040Exp\133\040ln\050Prob\050D\040|\040thisModel\051\040-\040ln\050\040Prob\050\040D\040|\040otherModel\051) Tj
+ET
+BT
+55 606 Td
+(or\040as\040LBF\040=\0402\040\050ln\050Prob\050D\040|\040thisModel\051\040-\040ln\050\040Prob\050\040D\040|\040otherModel\051\051) Tj
+ET
+BT
+55 591 Td
+(shows\040the\040support\040for\040thisModel\135) Tj
+ET
+50 561 m
+562 561 l
+S
+50 531 m
+562 531 l
+S
+BT
+55 516 Td
+(Locus) Tj
+ET
+BT
+170 516 Td
+(TI\0501a\051) Tj
+ET
+BT
+270 516 Td
+(BTI\0501b\051) Tj
+ET
+BT
+380 516 Td
+(SS\0502\051) Tj
+ET
+BT
+495 516 Td
+(HS\0503\051) Tj
+ET
+50 501 m
+562 501 l
+S
+BT
+58.32 486 Td
+(\040\040\040\0401) Tj
+ET
+BT
+141.07 486 Td
+(\040\040\040\040\040\040\040-8166.82) Tj
+ET
+BT
+244.07 486 Td
+(\040\040\040\040\040\040\040-8001.23) Tj
+ET
+BT
+348.07 486 Td
+(\040\040\040\040\040\040\040-7830.07) Tj
+ET
+BT
+461.07 486 Td
+(\040\040\040\040\040\040\040-8054.70) Tj
+ET
+BT
+55 456 Td
+(\0501a\051\040TI:\040Thermodynamic\040integration:\040log\050Prob\050D|Model\051\051:\040Good\040approximation\040with\040many\040temperatures\012) Tj
+ET
+BT
+55 441 Td
+(\0501b\051\040BTI:\040Bezier-approximated\040Thermodynamic\040integration:\040when\040using\040few\040temperatures\040USE\040THIS!\012) Tj
+ET
+BT
+55 426 Td
+(\0502\051\040\040SS:\040Steppingstone\040Sampling\040\050Xie\040et\040al\0402011\051\012) Tj
+ET
+BT
+55 411 Td
+(\0503\051\040\040HS:\040Harmonic\040mean\040approximation:\040Overestimates\040the\040marginal\040likelihood,\040poor\040variance\012\012) Tj
+ET
+BT
+55 381 Td
+(Citation\040suggestions:) Tj
+ET
+BT
+55 366 Td
+(Beerli\040P.\040and\040M.\040Palczewski,\0402010.\040Unified\040framework\040to\040evaluate\040panmixia\040and\040migration\040direction\040among) Tj
+ET
+BT
+55 351 Td
+(\040\040\040\040multiple\040sampling\040locations,\040Genetics,\040185:\040313-326.) Tj
+ET
+BT
+55 336 Td
+(Palczewski\040M.\040and\040P.\040Beerli,\0402014.\040Population\040model\040comparison\040using\040multi-locus\040datasets.) Tj
+ET
+BT
+55 321 Td
+(\040\040\040\040In\040M.-H.\040Chen,\040L.\040Kuo,\040and\040P.\040O.\040Lewis,\040editors,\040Bayesian\040Phylogenetics:\040Methods,\040) Tj
+ET
+BT
+55 306 Td
+(\040\040\040\040Algorithms,\040and\040Applications,\040pages\040187-200.\040CRC\040Press,\0402014.) Tj
+ET
+BT
+55 291 Td
+(Xie\040W.,\040P.\040O.\040Lewis,\040Y.\040Fan,\040L.\040Kuo,\040and\040M.-H.\040Chen.\0402011.\040Improving\040marginal\040likelihood) Tj
+ET
+BT
+55 276 Td
+(\040\040\040\040estimation\040for\040Bayesian\040phylogenetic\040model\040selection.\040Systematic\040Biology,\04060\0502\051:150\342\200\223160,\0402011.) Tj
+ET
+
+endstream
+endobj
+25 0 obj
+3082
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 27 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 28 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0407) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 16 Tf
+BT
+103.68 692 Td
+(Acceptance\040ratios\040for\040all\040parameters\040and\040the\040genealogies) Tj
+ET
+0 0 0 RG
+50 666 m
+562 666 l
+S
+/F0 10 Tf
+BT
+55 636 Td
+(Parameter) Tj
+ET
+BT
+250 636 Td
+(Accepted\040changes) Tj
+ET
+BT
+450 636 Td
+(Ratio) Tj
+ET
+50 621 m
+562 621 l
+S
+/F2 12 Tf
+BT
+55 606 Td
+(Q) Tj
+ET
+/F2 9 Tf
+BT
+64.6 601.5 Td
+(1) Tj
+ET
+/F0 10 Tf
+BT
+250 606 Td
+(\040\040936065\05720000043) Tj
+ET
+BT
+450 606 Td
+(\0400.04680) Tj
+ET
+BT
+55 591 Td
+(Genealogies) Tj
+ET
+BT
+250 591 Td
+(26721263\05779999957) Tj
+ET
+BT
+450 591 Td
+(\0400.33402) Tj
+ET
+
+endstream
+endobj
+28 0 obj
+832
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 31 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0408) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 18 Tf
+BT
+158.931 697 Td
+(Average\040temperatures\040during\040the\040run) Tj
+ET
+0 0 0 RG
+50 677 m
+562 677 l
+S
+/F0 10 Tf
+BT
+55 642 Td
+(Chain) Tj
+ET
+BT
+91.12 642 Td
+(Temperatures) Tj
+ET
+55 632 m
+557 632 l
+S
+BT
+55 612 Td
+(\040\040\040\0401\040) Tj
+ET
+BT
+91.12 612 Td
+(\040\040\0400.00000\040) Tj
+ET
+BT
+55 597 Td
+(\040\040\040\0402\040) Tj
+ET
+BT
+91.12 597 Td
+(\040\040\0400.00000\040) Tj
+ET
+BT
+55 582 Td
+(\040\040\040\0403\040) Tj
+ET
+BT
+91.12 582 Td
+(\040\040\0400.00000\040) Tj
+ET
+BT
+55 567 Td
+(\040\040\040\0404\040) Tj
+ET
+BT
+91.12 567 Td
+(\040\040\0400.00000\040) Tj
+ET
+BT
+55 522 Td
+(Adaptive\040heating\040often\040fails,\040if\040the\040average\040temperatures\040are\040very\040close\040together\012) Tj
+ET
+BT
+55 507 Td
+(try\040to\040rerun\040using\040static\040heating!\040If\040you\040want\040to\040compare\040models\040using\040marginal\012) Tj
+ET
+BT
+55 492 Td
+(likelihoods\040then\040you\040MUST\040use\040static\040heating\012) Tj
+ET
+
+endstream
+endobj
+31 0 obj
+1230
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F0 4 0 R
+/F1 5 0 R
+>>
+>>
+/MediaBox [0 0 612 792 ]
+/Contents 33 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 34 0 R
+>>
+stream
+/F0 10 Tf
+1 w
+50 50 512 682 re
+S
+BT
+335.81 742 Td
+(\040Africa:Plasmodium\040falciparum\040\133Joy\040et\040al.\0402003\135\040--\0409) Tj
+ET
+/F0 6 Tf
+BT
+50 42 Td
+(Migrate\0405.0.3a:\040\050http:\057\057popgen.sc.fsu.edu\051\040\133program\040run\040on\04009:29:43\135) Tj
+ET
+/F0 10 Tf
+/F1 16 Tf
+BT
+238.864 692 Td
+(Potential\040Problems) Tj
+ET
+0 0 0 RG
+50 666 m
+562 666 l
+S
+/F0 10 Tf
+BT
+55 636 Td
+(This\040section\040reports\040potential\040problems\040with\040your\040run,\040but\040such\040reporting\040is\040often\040not\040very\040accurate.\040Whith\040many\040) Tj
+ET
+BT
+55 621 Td
+(parameters\040in\040a\040multilocus\040analysi\040\040\040\040s,\040it\040is\040very\040common\040that\040some\040parameters\040for\040some\040loci\040will\040not\040be\040very\040) Tj
+ET
+BT
+55 606 Td
+(informative,\040triggering\040suggestions\040\050for\040example\040to\040increase\040the\040prior\040ran\040\040\040\040ge\051\040that\040are\040not\040sensible.\040This\040) Tj
+ET
+BT
+55 591 Td
+(suggestion\040tool\040will\040improve\040with\040time,\040therefore\040do\040not\040blindly\040follow\040its\040suggestions.\040If\040some\040parameters\040are\040fla\040\040\040\040) Tj
+ET
+BT
+55 576 Td
+(gged,\040inspect\040the\040tables\040carefully\040and\040judge\040wether\040an\040action\040is\040required.\040For\040example,\040if\040you\040run\040a\040Bayesian\040) Tj
+ET
+BT
+55 561 Td
+(inference\040with\040sequence\040data,\040for\040mac\040\040\040\040roscopic\040species\040there\040is\040rarely\040the\040need\040to\040increase\040the\040prior\040for\040Theta\040) Tj
+ET
+BT
+55 546 Td
+(beyond\0400.1;\040but\040if\040you\040use\040microsatellites\040it\040is\040rather\040common\040that\040your\040\040\040\040\040prior\040distribution\040for\040Theta\040should\040have\040) Tj
+ET
+BT
+55 531 Td
+(a\040range\040from\0400.0\040to\040100\040or\040more.\040With\040many\040populations\040\050\0763\051\040it\040is\040also\040very\040common\040that\040some\040migration\040rou\040\040\040\040) Tj
+ET
+BT
+55 516 Td
+(tes\040are\040estimated\040poorly\040because\040the\040data\040contains\040little\040or\040no\040information\040for\040that\040route.\040Increasing\040the\040range\040will\040) Tj
+ET
+BT
+55 501 Td
+(not\040help\040in\040such\040situations,\040\040\040\040\040reducing\040number\040of\040parameters\040may\040help\040in\040such\040situations.) Tj
+ET
+BT
+55 456 Td
+(No\040warning\040was\040recorded\040during\040the\040run) Tj
+ET
+
+endstream
+endobj
+34 0 obj
+2426
+endobj
+xref
+0 35
+0000000000 65535 f
+0000000016 00000 n
+0000000071 00000 n
+0000000192 00000 n
+0000000290 00000 n
+0000000426 00000 n
+0000000570 00000 n
+0000000674 00000 n
+0000000808 00000 n
+0000000994 00000 n
+0000005060 00000 n
+0000005084 00000 n
+0000005250 00000 n
+0000009630 00000 n
+0000009654 00000 n
+0000009831 00000 n
+0000012709 00000 n
+0000012733 00000 n
+0000012921 00000 n
+0000015180 00000 n
+0000015204 00000 n
+0000015392 00000 n
+0000028816 00000 n
+0000028841 00000 n
+0000029018 00000 n
+0000032163 00000 n
+0000032187 00000 n
+0000032375 00000 n
+0000033270 00000 n
+0000033293 00000 n
+0000033470 00000 n
+0000034763 00000 n
+0000034787 00000 n
+0000034964 00000 n
+0000037453 00000 n
+trailer
+<<
+/Root 1 0 R
+/Info 3 0 R
+/Size 35
+>>
+startxref
+37477
+%%EOF

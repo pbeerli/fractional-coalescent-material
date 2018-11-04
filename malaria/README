@@ -1,0 +1,1 @@
+grep : table | tr -s ':_' ' ' | awk '{ print $4,$5 }' | python ../lml_alpha.py

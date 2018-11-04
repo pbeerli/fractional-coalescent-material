@@ -1,0 +1,34 @@
+cp parmfile.orig parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_1.0
+#
+cp parmfile.orig parmfile
+perl -p -i -e 's/mittag-leffler-alpha=1.0/mittag-leffler-alpha=0.9/' parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_0.9
+#
+cp parmfile.orig parmfile
+perl -p -i -e 's/mittag-leffler-alpha=1.0/mittag-leffler-alpha=0.8/' parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_0.8
+#
+cp parmfile.orig parmfile
+perl -p -i -e 's/mittag-leffler-alpha=1.0/mittag-leffler-alpha=0.7/' parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_0.7
+#
+cp parmfile.orig parmfile
+perl -p -i -e 's/mittag-leffler-alpha=1.0/mittag-leffler-alpha=0.6/' parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_0.6
+#
+cp parmfile.orig parmfile
+perl -p -i -e 's/mittag-leffler-alpha=1.0/mittag-leffler-alpha=0.5/' parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_0.5
+#
+cp parmfile.orig parmfile
+perl -p -i -e 's/mittag-leffler-alpha=1.0/mittag-leffler-alpha=0.4/' parmfile
+~/src/migrate-mlf/migrate-n parmfile -nomenu
+cp outfile outfile124_0.4
+

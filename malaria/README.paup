@@ -1,0 +1,34 @@
+paup> lscores
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  5949 characters are included
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                    Substitution types = 2 (F84 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = empirical: A=0.32362 C=0.15749 G=0.15913 T=0.35976
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = F84+G
+
+    Number of distinct data patterns under this model = 21
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           8015.643
+Ti/tv:
+  exp. ratio    1.555876
+  parameter     1.296625
+Shape           0.009829
+
+Time used to compute likelihoods = 0.05 sec (CPU time = 0.05 sec)

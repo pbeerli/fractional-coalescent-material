@@ -1,0 +1,243 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AUTO                                                              
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 20 compute nodes are available.
+  Using Intel AVX (Advanced Vector Extensions)
+  PDF output enabled [Letter-size]
+  Version 5.0.0a   [May-20-2017]
+  Program started at   Wed Oct 25 09:42:28 2017
+         finished at Wed Oct 25 12:53:28 2017
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Mittag-Leffler with alpha=0.50]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution:
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.20000
+
+
+
+Datatype: DNA sequence data
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)            432743100
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Romanshorn     * * 
+   1 Arbon_1        * * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                    100000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              2000000
+
+Print options:
+   Data file:                                     infile.0.9
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                 outfile_0.9_0.5
+   Output file (PDF):                    outfile_0.9_0.5.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:             bayesallfile_0.9_0.5
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                                 AUTO 
+Data file:                                        infile.0.9
+Datatype:                                      Sequence data
+Number of loci:                                           10
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Jukes-Cantor    [Basefreq: =0.25]
+     2         1 Jukes-Cantor    [Basefreq: =0.25]
+     3         1 Jukes-Cantor    [Basefreq: =0.25]
+     4         1 Jukes-Cantor    [Basefreq: =0.25]
+     5         1 Jukes-Cantor    [Basefreq: =0.25]
+     6         1 Jukes-Cantor    [Basefreq: =0.25]
+     7         1 Jukes-Cantor    [Basefreq: =0.25]
+     8         1 Jukes-Cantor    [Basefreq: =0.25]
+     9         1 Jukes-Cantor    [Basefreq: =0.25]
+    10         1 Jukes-Cantor    [Basefreq: =0.25]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     10000
+     2     10000
+     3     10000
+     4     10000
+     5     10000
+     6     10000
+     7     10000
+     8     10000
+     9     10000
+    10     10000
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Romanshorn_0                 1        10
+  1                              2        10
+  1                              3        10
+  1                              4        10
+  1                              5        10
+  1                              6        10
+  1                              7        10
+  1                              8        10
+  1                              9        10
+  1                             10        10
+  1 Arbon_1                      1        10
+  1                              2        10
+  1                              3        10
+  1                              4        10
+  1                              5        10
+  1                              6        10
+  1                              7        10
+  1                              8        10
+  1                              9        10
+  1                             10        10
+    Total of all populations     1        20
+                                 2        20
+                                 3        20
+                                 4        20
+                                 5        20
+                                 6        20
+                                 7        20
+                                 8        20
+                                 9        20
+                                10        20
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00000  0.00000  0.00003  0.09993  0.09993  0.00003  0.09422
+    2  Theta_1         0.04780  0.04887  0.04990  0.05087  0.05193  0.04997  0.09447
+    3  Theta_1         0.04627  0.04733  0.04837  0.04933  0.05040  0.04843  0.09383
+    4  Theta_1         0.04480  0.04720  0.04830  0.04987  0.05160  0.04843  0.09375
+    5  Theta_1         0.04753  0.04860  0.04963  0.05060  0.05167  0.04970  0.09451
+    6  Theta_1         0.00000  0.00000  0.00003  0.09993  0.09993  0.00003  0.09430
+    7  Theta_1         0.00000  0.00000  0.00003  0.09993  0.09993  0.00003  0.09431
+    8  Theta_1         0.04247  0.04353  0.04457  0.04553  0.04660  0.04463  0.09427
+    9  Theta_1         0.00000  0.00000  0.00003  0.09993  0.09993  0.00003  0.09423
+   10  Theta_1         0.00000  0.00000  0.00003  0.09993  0.09993  0.00003  0.09415
+  All  Theta_1         0.04393  0.04760  0.04883  0.05040  0.05187  0.04863  0.09935
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus          TI(1a)       BTI(1b)         SS(2)         HS(3)
+---------------------------------------------------------------
+      1     -37882.88     -32223.45     -31021.73     -31244.80
+      2     -36428.58     -24098.02          -nan     -21947.90
+      3     -20681.70     -18007.10          -nan     -17633.55
+      4     -31868.37     -23652.66          -nan     -22306.65
+      5     -22794.73     -19684.84          -nan     -19270.42
+      6     -53949.50     -32809.49          -nan     -29064.65
+      7     -20915.20     -18382.27          -nan     -18065.25
+      8     -28187.45     -21684.45          -nan     -20639.75
+      9     -27392.32     -21487.82          -nan     -20575.18
+     10     -22194.28     -19155.78          -nan     -18757.82
+---------------------------------------------------------------
+  All      -302281.85    -231172.69          -nan    -220056.64
+[Scaling factor = 13.163663]
+
+
+(1a) TI: Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) BTI: Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  SS: Steppingstone Sampling (Xie et al 2011)
+(3)  HS: Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1               32858870/39998237          0.82151
+Genealogies            2382525/160001763           0.01489
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.102                812759.347
+Genealogies               0.949                  25439.774
+(*) averaged over loci.
+
+
+
+Temperatures during the run using bounded adaptive heating scheme
+===========================================================================
+
+Chain Temperature               log(marginal likelihood)  
+    1    1.00000          -21950.59608         inf
+    2    1.00000          -21979.99881         inf
+    3    1.00000          -22064.97293         inf
+    4    1.00000          -71336.74981    16.38782

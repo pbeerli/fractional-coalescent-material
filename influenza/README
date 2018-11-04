@@ -1,0 +1,5 @@
+use fasta_sorter.sh and/or grep to extract the segments and then
+segment_splitter.py
+to generate the segment aligned files
+and then hand assemble the infiles
+

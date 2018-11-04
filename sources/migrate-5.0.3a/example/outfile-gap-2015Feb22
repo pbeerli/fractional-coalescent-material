@@ -1,0 +1,175 @@
+  =============================================
+   combined                                    
+  =============================================
+  MIGRATION RATE AND POPULATION SIZE ESTIMATION
+  using Markov Chain Monte Carlo simulation
+  =============================================
+  Version 4.1.3a
+
+  Program started at Sun Feb 22 13:16:20 2015
+         finished at Sun Feb 22 13:20:53 2015
+     
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)       Slice sampling
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta
+-------------------------  ------------ ---------- ---------- ---------- ----------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000 
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           1583456714
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 urchins        * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):               1000000
+      Steps recorded (sample*rep):                     10000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,100000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                     infile.gap
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                    outfile-gap0
+   Output file (PDF):                       outfile-gap0.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:                bayesallfile-gap0
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                              combined
+Data file:                                        infile.gap
+Datatype:                                     Haplotype data
+Number of loci:                                            5
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.25 0.25 0.32 0.18, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.29 0.17 0.21 0.34, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.30 0.21 0.19 0.30, t/t ratio=2.000]
+     4         1 Felsenstein 84  [Bf:0.29 0.22 0.20 0.29, t/t ratio=2.000]
+     5         1 Felsenstein 84  [Bf:0.31 0.18 0.19 0.31, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     252
+     2     921
+     3     425
+     4     459
+     5     713
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 urchins                      1        24
+  1                              2        24
+  1                              3        24
+  1                              4        24
+  1                              5        24
+    Total of all populations     1        24
+                                 2        24
+                                 3        24
+                                 4        24
+                                 5        24
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00560  0.01073  0.01417  0.01893  0.03233  0.01650  0.01751
+    2  Theta_1         0.01467  0.02180  0.02617  0.03300  0.04913  0.02903  0.00929
+    3  Theta_1         0.03193  0.04320  0.05117  0.06307  0.08860  0.05650  0.02628
+    4  Theta_1         0.01087  0.01680  0.02163  0.02647  0.04073  0.02343  0.01983
+    5  Theta_1         0.05800  0.07480  0.08310  0.09293  0.10000  0.08083  0.02844
+  All  Theta_1         0.00633  0.01787  0.02063  0.02413  0.03373  0.02190  0.02874
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)     Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1               -465.67                       -442.76                -431.23
+      2              -1686.37                      -1619.06               -1611.62
+      3              -1038.68                       -967.82                -955.25
+      4               -906.24                       -875.06                -866.21
+      5              -3065.75                      -2490.45               -2385.99
+---------------------------------------------------------------------------------------
+  All                -7161.79                      -6394.23               -6249.38
+[Scaling factor = 0.918704]
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                1999527/1999527           1.00000
+Genealogies             256383/2000473            0.12816
+
+Autocorrelation and Effective sample size
+-------------------------------------------------------------------
+
+[  0]   Parameter         Autocorrelation(*)   Effective Sample size
+  ---------         ---------------      ---------------------
+  Theta_1                0.27348             43998.46
+  Ln[Prob(D|P)]          0.68981             15434.80
+  (*) averaged over loci.
+

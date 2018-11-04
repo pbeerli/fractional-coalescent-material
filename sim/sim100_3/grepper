@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+#
+import os
+for i in range(11):
+    ii = i/10.0;
+    os.system('grep "with B" outfile_'+str(ii)+'_* | tr \':=(\' \' \' | awk \'{print $1,$8,$9,$9}\' | sort -n -k 4,4 | bf.py')
+

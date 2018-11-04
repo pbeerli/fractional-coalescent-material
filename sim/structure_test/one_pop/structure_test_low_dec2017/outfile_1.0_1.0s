@@ -1,0 +1,302 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AUTO                                                              
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 5 compute nodes are available.
+  Using Intel AVX (Advanced Vector Extensions)
+  PDF output enabled [Letter-size]
+  Version 5.0.3a   [January-08-2018]
+  Program started at   Fri May 25 17:56:31 2018
+         finished at Fri May 25 21:22:19 2018
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution:
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.100000   0.200000   0.010000    1500  0.05000
+Population size (Theta_2)      Uniform  0.000000   0.100000   0.200000   0.010000    1500  0.05000
+Migration 2 to 1   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.05000
+Migration 1 to 2   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.05000
+
+
+
+Datatype: DNA sequence data
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           3820568887
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Romanshorn     * * 
+   2 Arbon          * * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):               2000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):               500000
+
+Print options:
+   Data file:                                    infile.1.0b
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                outfile_1.0_1.0s
+   Output file (PDF):                   outfile_1.0_1.0s.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:            bayesallfile_1.0_1.0s
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                                 AUTO 
+Data file:                                       infile.1.0b
+Datatype:                                      Sequence data
+Number of loci:                                           10
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.25 0.25 0.24 0.25, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.26 0.25 0.25 0.25, t/t ratio=2.000]
+     4         1 Felsenstein 84  [Bf:0.26 0.24 0.25 0.25, t/t ratio=2.000]
+     5         1 Felsenstein 84  [Bf:0.26 0.25 0.25 0.25, t/t ratio=2.000]
+     6         1 Felsenstein 84  [Bf:0.24 0.26 0.25 0.25, t/t ratio=2.000]
+     7         1 Felsenstein 84  [Bf:0.25 0.26 0.24 0.25, t/t ratio=2.000]
+     8         1 Felsenstein 84  [Bf:0.25 0.24 0.25 0.25, t/t ratio=2.000]
+     9         1 Felsenstein 84  [Bf:0.25 0.26 0.25 0.25, t/t ratio=2.000]
+    10         1 Felsenstein 84  [Bf:0.25 0.26 0.25 0.24, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     10000
+     2     10000
+     3     10000
+     4     10000
+     5     10000
+     6     10000
+     7     10000
+     8     10000
+     9     10000
+    10     10000
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Romanshorn_0                 1        10
+  1                              2        10
+  1                              3        10
+  1                              4        10
+  1                              5        10
+  1                              6        10
+  1                              7        10
+  1                              8        10
+  1                              9        10
+  1                             10        10
+  2 Arbon                        1         0
+  2                              2         0
+  2                              3         0
+  2                              4         0
+  2                              5         0
+  2                              6         0
+  2                              7         0
+  2                              8         0
+  2                              9         0
+  2                             10         0
+    Total of all populations     1        10
+                                 2        10
+                                 3        10
+                                 4        10
+                                 5        10
+                                 6        10
+                                 7        10
+                                 8        10
+                                 9        10
+                                10        10
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00000  0.00520  0.00887  0.01293  0.06080  0.01113  0.01749
+    1  Theta_2         0.00000  0.00107  0.00340  0.00547  0.13760  0.02967  0.04793
+    1  M_2->1          0.00000  0.00000 13.00000 248.66667 559.33333 292.33333 374.94058
+    1  M_1->2         122.0000 708.0000 975.6667 996.0000 999.3333 638.3333 599.3375
+    2  Theta_1         0.00200  0.00720  0.01087  0.01507  0.02800  0.01273  0.01385
+    2  Theta_2         0.00000  0.00000  0.00580  0.05907  0.17160  0.06207  0.07246
+    2  M_2->1          0.00000  0.00000 84.33333 176.66667 782.00000 208.33333 272.18078
+    2  M_1->2         170.6667 751.3333 933.0000 987.3333 999.3333 647.0000 625.2555
+    3  Theta_1         0.00000  0.00360  0.00660  0.00960  0.04413  0.00793  0.01520
+    3  Theta_2         0.00000  0.00000  0.00300  0.06840  0.15627  0.06887  0.07713
+    3  M_2->1           0.0000  30.6667 162.3333 322.6667 618.6667 295.6667 375.8056
+    3  M_1->2         172.6667 729.3333 975.6667 987.3333 999.3333 655.0000 624.0592
+    4  Theta_1         0.00000  0.00373  0.00660  0.00933  0.01667  0.00753  0.00800
+    4  Theta_2         0.00053  0.00227  0.00793  0.08160  0.11000  0.07993  0.08867
+    4  M_2->1          18.0000 131.3333 277.6667 449.3333 877.3333 377.0000 412.9625
+    4  M_1->2         256.0000 692.0000 886.3333 988.6667 999.3333 676.3333 654.1678
+    5  Theta_1         0.00040  0.00520  0.00833  0.01173  0.02200  0.00967  0.01061
+    5  Theta_2         0.00000  0.00187  0.00767  0.05320  0.15760  0.06233  0.07023
+    5  M_2->1           0.0000  66.0000 189.0000 330.0000 763.3333 278.3333 324.1488
+    5  M_1->2         209.3333 546.0000 711.0000 844.0000 994.6667 623.0000 610.4920
+    6  Theta_1         0.00187  0.00400  0.00687  0.00947  0.01213  0.00767  0.00849
+    6  Theta_2         0.00000  0.00000  0.00260  0.03560  0.07360  0.08273  0.08454
+    6  M_2->1          0.00000  0.00000 77.00000 295.33333 615.33333 218.33333 305.22087
+    6  M_1->2         138.0000 637.3333 931.0000 980.0000 999.3333 632.3333 605.8766
+    7  Theta_1         0.00160  0.00693  0.01087  0.01613  0.03280  0.01367  0.01527
+    7  Theta_2         0.00493  0.01107  0.04300  0.05667  0.17773  0.08673  0.08936
+    7  M_2->1          15.3333 177.3333 278.3333 456.0000 866.6667 397.6667 417.6114
+    7  M_1->2         150.6667 488.6667 656.3333 801.3333 999.3333 577.0000 556.5976
+    8  Theta_1         0.00000  0.00173  0.00380  0.00560  0.00907  0.00433  0.00394
+    8  Theta_2         0.00240  0.00773  0.04673  0.08907  0.18333  0.08580  0.09145
+    8  M_2->1          18.0000 176.0000 280.3333 529.3333 906.6667 417.0000 440.9677
+    8  M_1->2         172.0000 604.0000 677.6667 725.3333 999.3333 591.0000 586.0582
+    9  Theta_1         0.00000  0.00227  0.00447  0.00640  0.01013  0.00487  0.00468
+    9  Theta_2         0.00000  0.00000  0.00100  0.07920  0.17120  0.07633  0.08471
+    9  M_2->1          0.00000  0.00000 30.33333 250.00000 705.33333 208.33333 262.79270
+    9  M_1->2         172.6667 666.0000 928.3333 990.0000 999.3333 675.6667 638.2159
+   10  Theta_1         0.00000  0.00333  0.00607  0.00840  0.01387  0.00660  0.00677
+   10  Theta_2         0.00187  0.00440  0.02553  0.07773  0.11333  0.08633  0.09177
+   10  M_2->1           0.0000  77.3333 154.3333 331.3333 792.0000 290.3333 335.2542
+   10  M_1->2         210.6667 691.3333 978.3333 992.6667 999.3333 665.6667 637.2595
+  All  Theta_1         0.00147  0.00413  0.00620  0.00800  0.01067  0.00633  0.00615
+  All  Theta_2         0.00000  0.00160  0.00420  0.00653  0.02213  0.00540  0.00698
+  All  M_2->1          60.0000 103.3333 152.3333 188.0000 266.0000 164.3333 169.3399
+  All  M_1->2         557.3333 812.0000 851.6667 939.3333 999.3333 795.6667 784.9780
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus          TI(1a)       BTI(1b)         SS(2)         HS(3)
+---------------------------------------------------------------
+      1     -16287.51     -15583.81     -15360.32     -15621.96
+      2     -17470.03     -16511.70     -16202.68     -16509.94
+      3     -16509.07     -15793.37     -15508.77     -15833.41
+      4     -17228.01     -16291.58     -15975.77     -16294.46
+      5     -17917.46     -16849.08     -16478.71     -16831.09
+      6     -15748.54     -15055.46     -14859.80     -15093.48
+      7     -22689.00     -20522.80     -14868.00     -20318.36
+      8     -16466.66     -15504.05     -15247.90     -15494.58
+      9     -15473.79     -14799.00     -14674.42     -14838.21
+     10     -16701.30     -15799.03     -15522.56     -15802.44
+---------------------------------------------------------------
+  All      -172476.20    -162694.70    -154683.76    -162707.97
+[Scaling factor = 15.167586]
+
+
+(1a) TI: Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) BTI: Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  SS: Steppingstone Sampling (Xie et al 2011)
+(3)  HS: Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                 628371/1000219           0.62823
+Theta_2                 953725/999925            0.95380
+M_2->1                  888698/1000220           0.88850
+M_1->2                  953747/1000453           0.95332
+Genealogies             768720/15999183           0.04805
+
+
+
+Temperatures during the run using bounded adaptive heating scheme
+===========================================================================
+
+Chain Temperature               log(marginal likelihood)  
+    1    1.00000          -16263.79364  -15467.20668
+    2    1.00000          -16272.12605  -10595.19404
+    3    1.00000          -16282.25898  -5298.04152
+    4    1.00000          -22122.37325     2.68645
+
+POTENTIAL PROBLEMS
+------------------------------------------------------------------------------------------
+This section reports potential problems with your run, but such reporting is often not 
+very accurate. Whith many parameters in a multilocus analysis, it is very common that 
+some parameters for some loci will not be very informative, triggering suggestions (for 
+example to increase the prior range) that are not sensible. This suggestion tool will 
+improve with time, therefore do not blindly follow its suggestions. If some parameters 
+are flagged, inspect the tables carefully and judge wether an action is required. For 
+example, if you run a Bayesian inference with sequence data, for macroscopic species 
+there is rarely the need to increase the prior for Theta beyond 0.1; but if you use 
+microsatellites it is rather common that your prior distribution for Theta should have a 
+range from 0.0 to 100 or more. With many populations (>3) it is also very common that 
+some migration routes are estimated poorly because the data contains little or no 
+information for that route. Increasing the range will not help in such situations, 
+reducing number of parameters may help in such situations.
+------------------------------------------------------------------------------------------
+Param 4 (Locus 1): Upper prior boundary seems too low! 
+Param 4 (Locus 2): Upper prior boundary seems too low! 
+Param 4 (Locus 3): Upper prior boundary seems too low! 
+Param 4 (Locus 4): Upper prior boundary seems too low! 
+Param 4 (Locus 6): Upper prior boundary seems too low! 
+Param 4 (Locus 9): Upper prior boundary seems too low! 
+Param 4 (Locus 10): Upper prior boundary seems too low! 
+Param 4 (all loci): Upper prior boundary seems too low! 
+------------------------------------------------------------------------------------------

@@ -1,0 +1,295 @@
+/opt/hpc/gnu/openmpi/bin
+hpc-m36-1-2,hpc-m36-2-12,hpc-m36-4-5
+.:/gpfs/home/beerli/bin:/gpfs/research/software/hpc/gnu/openmpi/bin:/opt/hpc/gnu/openmpi/bin:/gpfs/research/software/hpc/gnu/bin:/opt/hpc/gnu/bin:.:/gpfs/home/beerli/bin:/gpfs/home/beerli/valgrind/bin:.:/gpfs/home/beerli/bin/:/opt/python27/anaconda/bin/:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/panfs/storage.local/scs/beerli/scratch/genomics_tools/bin:/gpfs/home/beerli/src/BEASTv1.7.1/bin:/gpfs/home/beerli/java/jdk1.8.0_51/jre/bin:/gpfs/home/beerli/java/jdk1.8.0_51/bin
+hpc-m36-1-2,hpc-m36-2-12,hpc-m36-4-5
+/gpfs/research/beerli/scratch/beerli/migrate-mlf2/mittag-leffler/influenza_rerun_oct27four
+Reading parmfile "parmfile_0.55"....
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 40 compute nodes are available.
+  Using Intel AVX (Advanced Vector Extensions)
+  PDF output enabled [Letter-size]
+  Version 5.0.3a   [January-08-2018]
+  Program started at   Sun Oct 28 13:49:22 2018
+
+
+Master random number seed: 3692684331
+8
+
+
+Reading (1) mexico ...
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Mittag-Leffler with alpha=0.55]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequency 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)  Exponential  0.000000   0.100000   0.900000           -   1500  0.50000
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           3692684331
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 mexico         * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              50000000
+      Steps recorded (sample*rep):                     50000
+   Combining over replicates:                              5
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              5000000
+
+Print options:
+   Data file:              influenza_h1n1_mexico_2014_infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):          outfile_influenza_0.55
+   Output file (PDF):             outfile_influenza_0.55.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:      bayesallfile_influenza_0.55
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                                mexico
+Data file:                 influenza_h1n1_mexico_2014_infile
+Datatype:                                     Haplotype data
+Number of loci:                                            8
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.34 0.19 0.26 0.22, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.36 0.19 0.23 0.22, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.33 0.20 0.24 0.23, t/t ratio=2.000]
+     4         1 Felsenstein 84  [Bf:0.35 0.19 0.22 0.24, t/t ratio=2.000]
+     5         1 Felsenstein 84  [Bf:0.33 0.20 0.26 0.21, t/t ratio=2.000]
+     6         1 Felsenstein 84  [Bf:0.32 0.18 0.24 0.26, t/t ratio=2.000]
+     7         1 Felsenstein 84  [Bf:0.29 0.21 0.26 0.24, t/t ratio=2.000]
+     8         1 Felsenstein 84  [Bf:0.32 0.19 0.24 0.25, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     2280
+     2     2274
+     3     2151
+     4     1701
+     5     1497
+     6     1410
+     7     982
+     8     863
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 mexico                       1         6
+  1                              2         6
+  1                              3         6
+  1                              4         6
+  1                              5         6
+  1                              6         6
+  1                              7         6
+  1                              8         6
+    Total of all populations     1         6
+                                 2         6
+                                 3         6
+                                 4         6
+                                 5         6
+                                 6         6
+                                 7         6
+                                 8         6
+
+[  8] 13:49:22   Burn-in of 5000000 steps (Locus: 8/8, Replicate: 1/5) 
+[  7] 13:49:22   Burn-in of 5000000 steps (Locus: 7/8, Replicate: 1/5) 
+[  6] 13:49:22   Burn-in of 5000000 steps (Locus: 6/8, Replicate: 1/5) 
+[  2] 13:49:22   Burn-in of 5000000 steps (Locus: 2/8, Replicate: 1/5) 
+[  3] 13:49:22   Burn-in of 5000000 steps (Locus: 3/8, Replicate: 1/5) 
+[  4] 13:49:22   Burn-in of 5000000 steps (Locus: 4/8, Replicate: 1/5) 
+[  1] 13:49:22   Burn-in of 5000000 steps (Locus: 1/8, Replicate: 1/5) 
+[  5] 13:49:22   Burn-in of 5000000 steps (Locus: 5/8, Replicate: 1/5) 
+[ 12] 13:49:42   Burn-in of 5000000 steps (Locus: 7/8, Replicate: 2/5) 
+[  9] 13:49:42   Burn-in of 5000000 steps (Locus: 8/8, Replicate: 3/5) 
+[ 33] 13:49:42   Burn-in of 5000000 steps (Locus: 8/8, Replicate: 5/5) 
+[ 24] 13:49:42   Burn-in of 5000000 steps (Locus: 8/8, Replicate: 2/5) 
+[ 37] 13:49:42   Burn-in of 5000000 steps (Locus: 8/8, Replicate: 4/5) 
+[ 23] 13:49:42   Burn-in of 5000000 steps (Locus: 7/8, Replicate: 5/5) 
+[ 40] 13:49:42   Burn-in of 5000000 steps (Locus: 7/8, Replicate: 4/5) 
+[ 38] 13:49:42   Burn-in of 5000000 steps (Locus: 7/8, Replicate: 3/5) 
+[ 17] 13:49:42   Burn-in of 5000000 steps (Locus: 6/8, Replicate: 2/5) 
+[ 25] 13:49:42   Burn-in of 5000000 steps (Locus: 6/8, Replicate: 5/5) 
+[ 36] 13:49:42   Burn-in of 5000000 steps (Locus: 6/8, Replicate: 4/5) 
+[ 28] 13:49:42   Burn-in of 5000000 steps (Locus: 6/8, Replicate: 3/5) 
+[ 39] 13:49:42   Burn-in of 5000000 steps (Locus: 5/8, Replicate: 5/5) 
+[ 14] 13:49:42   Burn-in of 5000000 steps (Locus: 5/8, Replicate: 4/5) 
+[ 16] 13:49:42   Burn-in of 5000000 steps (Locus: 5/8, Replicate: 3/5) 
+[ 31] 13:49:42   Burn-in of 5000000 steps (Locus: 4/8, Replicate: 5/5) 
+[ 26] 13:49:42   Burn-in of 5000000 steps (Locus: 4/8, Replicate: 4/5) 
+[ 35] 13:49:42   Burn-in of 5000000 steps (Locus: 3/8, Replicate: 5/5) 
+[ 20] 13:49:42   Burn-in of 5000000 steps (Locus: 4/8, Replicate: 3/5) 
+[ 10] 13:49:42   Burn-in of 5000000 steps (Locus: 1/8, Replicate: 3/5) 
+[ 18] 13:49:42   Burn-in of 5000000 steps (Locus: 4/8, Replicate: 2/5) 
+[ 19] 13:49:42   Burn-in of 5000000 steps (Locus: 2/8, Replicate: 2/5) 
+[ 30] 13:49:42   Burn-in of 5000000 steps (Locus: 3/8, Replicate: 4/5) 
+[ 32] 13:49:42   Burn-in of 5000000 steps (Locus: 2/8, Replicate: 4/5) 
+[ 34] 13:49:42   Burn-in of 5000000 steps (Locus: 2/8, Replicate: 3/5) 
+[ 27] 13:49:42   Burn-in of 5000000 steps (Locus: 2/8, Replicate: 5/5) 
+[ 15] 13:49:42   Burn-in of 5000000 steps (Locus: 3/8, Replicate: 3/5) 
+[ 29] 13:49:42   Burn-in of 5000000 steps (Locus: 1/8, Replicate: 5/5) 
+[ 11] 13:49:42   Burn-in of 5000000 steps (Locus: 1/8, Replicate: 2/5) 
+[ 22] 13:49:42   Burn-in of 5000000 steps (Locus: 3/8, Replicate: 2/5) 
+[ 21] 13:49:42   Burn-in of 5000000 steps (Locus: 1/8, Replicate: 4/5) 
+[ 13] 13:49:42   Burn-in of 5000000 steps (Locus: 5/8, Replicate: 2/5) 
+[  7] 13:51:32   Sampling of 10000000 steps (Locus: 7/8, Replicate: 1/5) 
+[  8] 13:51:48   Sampling of 10000000 steps (Locus: 8/8, Replicate: 1/5) 
+[ 12] 13:51:53   Sampling of 10000000 steps (Locus: 7/8, Replicate: 2/5) 
+[ 23] 13:51:53   Sampling of 10000000 steps (Locus: 7/8, Replicate: 5/5) 
+[ 40] 13:51:53   Sampling of 10000000 steps (Locus: 7/8, Replicate: 4/5) 
+[ 38] 13:51:55   Sampling of 10000000 steps (Locus: 7/8, Replicate: 3/5) 
+[  5] 13:52:00   Sampling of 10000000 steps (Locus: 5/8, Replicate: 1/5) 
+[  6] 13:52:00   Sampling of 10000000 steps (Locus: 6/8, Replicate: 1/5) 
+[  1] 13:52:06   Sampling of 10000000 steps (Locus: 1/8, Replicate: 1/5) 
+[  3] 13:52:07   Sampling of 10000000 steps (Locus: 3/8, Replicate: 1/5) 
+[ 33] 13:52:10   Sampling of 10000000 steps (Locus: 8/8, Replicate: 5/5) 
+[ 37] 13:52:11   Sampling of 10000000 steps (Locus: 8/8, Replicate: 4/5) 
+[  9] 13:52:13   Sampling of 10000000 steps (Locus: 8/8, Replicate: 3/5) 
+[ 24] 13:52:13   Sampling of 10000000 steps (Locus: 8/8, Replicate: 2/5) 
+[  2] 13:52:16   Sampling of 10000000 steps (Locus: 2/8, Replicate: 1/5) 
+[ 36] 13:52:17   Sampling of 10000000 steps (Locus: 6/8, Replicate: 4/5) 
+[ 17] 13:52:18   Sampling of 10000000 steps (Locus: 6/8, Replicate: 2/5) 
+[ 25] 13:52:19   Sampling of 10000000 steps (Locus: 6/8, Replicate: 5/5) 
+[ 13] 13:52:20   Sampling of 10000000 steps (Locus: 5/8, Replicate: 2/5) 
+[ 16] 13:52:20   Sampling of 10000000 steps (Locus: 5/8, Replicate: 3/5) 
+[  4] 13:52:21   Sampling of 10000000 steps (Locus: 4/8, Replicate: 1/5) 
+[ 28] 13:52:21   Sampling of 10000000 steps (Locus: 6/8, Replicate: 3/5) 
+[ 39] 13:52:22   Sampling of 10000000 steps (Locus: 5/8, Replicate: 5/5) 
+[ 14] 13:52:23   Sampling of 10000000 steps (Locus: 5/8, Replicate: 4/5) 
+[ 21] 13:52:26   Sampling of 10000000 steps (Locus: 1/8, Replicate: 4/5) 
+[ 29] 13:52:26   Sampling of 10000000 steps (Locus: 1/8, Replicate: 5/5) 
+[ 10] 13:52:27   Sampling of 10000000 steps (Locus: 1/8, Replicate: 3/5) 
+[ 15] 13:52:27   Sampling of 10000000 steps (Locus: 3/8, Replicate: 3/5) 
+[ 30] 13:52:27   Sampling of 10000000 steps (Locus: 3/8, Replicate: 4/5) 
+[ 22] 13:52:28   Sampling of 10000000 steps (Locus: 3/8, Replicate: 2/5) 
+[ 11] 13:52:28   Sampling of 10000000 steps (Locus: 1/8, Replicate: 2/5) 
+[ 35] 13:52:30   Sampling of 10000000 steps (Locus: 3/8, Replicate: 5/5) 
+[ 32] 13:52:36   Sampling of 10000000 steps (Locus: 2/8, Replicate: 4/5) 
+[ 27] 13:52:38   Sampling of 10000000 steps (Locus: 2/8, Replicate: 5/5) 
+[ 34] 13:52:39   Sampling of 10000000 steps (Locus: 2/8, Replicate: 3/5) 
+[ 19] 13:52:39   Sampling of 10000000 steps (Locus: 2/8, Replicate: 2/5) 
+[ 26] 13:52:40   Sampling of 10000000 steps (Locus: 4/8, Replicate: 4/5) 
+[ 20] 13:52:42   Sampling of 10000000 steps (Locus: 4/8, Replicate: 3/5) 
+[ 31] 13:52:43   Sampling of 10000000 steps (Locus: 4/8, Replicate: 5/5) 
+[ 18] 13:52:44   Sampling of 10000000 steps (Locus: 4/8, Replicate: 2/5) 
+[  7] 13:56:02   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.32,0.35,0.49,1.00) Swap(1054364,735210,74630)
+[ 12] 13:56:21   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.32,0.35,0.49,1.00) Swap(1053603,734512,74404)
+[ 40] 13:56:24   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.32,0.35,0.49,1.00) Swap(1053407,734540,75138)
+[ 23] 13:56:25   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.32,0.35,0.49,1.00) Swap(1052178,735326,74539)
+[ 38] 13:56:26   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.32,0.35,0.49,1.00) Swap(1051703,733516,75210)
+[  8] 13:56:49   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.12,0.23,1.00) Swap(852191,575989,1575)
+[ 37] 13:57:17   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.12,0.23,1.00) Swap(853059,569456,1599)
+[ 33] 13:57:17   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.12,0.23,1.00) Swap(853502,571268,1587)
+[  9] 13:57:24   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.12,0.23,1.00) Swap(851155,573355,1587)
+[  5] 13:57:24   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.18,0.28,1.00) Swap(842236,558898,1423)
+[  6] 13:57:26   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.17,0.19,0.27,1.00) Swap(899196,599056,1186)
+[ 24] 13:57:27   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.12,0.23,1.00) Swap(849091,572754,1621)
+[ 17] 13:57:42   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.17,0.19,0.27,1.00) Swap(898525,600185,1119)
+[ 36] 13:57:43   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.17,0.19,0.28,1.00) Swap(899072,599548,1111)
+[ 13] 13:57:45   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.18,0.28,1.00) Swap(839374,559191,1396)
+[ 16] 13:57:45   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.18,0.28,1.00) Swap(843102,557449,1413)
+[  1] 13:57:46   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.10,0.09,0.18,1.00) Swap(697819,409776,376)
+[ 28] 13:57:47   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.17,0.18,0.28,1.00) Swap(903611,599092,1087)
+[ 25] 13:57:50   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.17,0.19,0.28,1.00) Swap(900362,600626,1157)
+[  3] 13:57:50   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.21,1.00) Swap(796736,471119,214)
+[ 39] 13:57:50   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.18,0.28,1.00) Swap(843266,559310,1482)
+[ 14] 13:57:55   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.18,0.28,1.00) Swap(845149,558574,1431)
+[ 10] 13:58:05   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.10,0.09,0.18,1.00) Swap(696650,409198,391)
+[ 29] 13:58:07   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.10,0.09,0.18,1.00) Swap(701849,410742,340)
+[ 15] 13:58:08   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.21,1.00) Swap(798936,471727,191)
+[ 11] 13:58:08   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.10,0.09,0.18,1.00) Swap(704629,410090,375)
+[ 30] 13:58:09   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.21,1.00) Swap(795347,472468,231)
+[ 21] 13:58:10   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.10,0.09,0.18,1.00) Swap(701272,411176,359)
+[ 22] 13:58:13   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.21,1.00) Swap(795279,473876,164)
+[ 35] 13:58:16   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.21,1.00) Swap(796471,476678,207)
+[  2] 13:58:17   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.20,1.00) Swap(889706,560180,218)
+[  4] 13:58:28   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.12,0.22,1.00) Swap(652601,478644,215)
+[ 32] 13:58:39   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.20,1.00) Swap(894305,558100,185)
+[ 27] 13:58:41   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.20,1.00) Swap(891655,551694,162)
+[ 19] 13:58:44   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.20,1.00) Swap(887036,561012,178)
+[ 34] 13:58:45   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.14,0.20,1.00) Swap(892796,556528,166)
+[ 26] 13:58:50   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.12,0.22,1.00) Swap(651646,481029,173)
+[ 20] 13:58:55   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.12,0.23,1.00) Swap(647785,481190,236)
+[ 31] 13:58:57   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.13,0.23,1.00) Swap(651117,481792,188)
+[ 18] 13:59:00   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.12,0.22,1.00) Swap(654845,479265,215)
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus          TI(1a)       BTI(1b)         SS(2)         HS(3)
+---------------------------------------------------------------
+      1      -3376.68      -3316.81      -3316.42      -3336.73
+      2      -3361.36      -3299.60          -nan      -3321.46
+      3      -3237.90      -3176.95          -nan      -3196.19
+      4      -2643.80      -2584.21          -nan      -2596.02
+      5      -2232.94      -2192.61          -nan      -2205.35
+      6      -2128.16      -2086.01          -nan      -2097.70
+      7      -1410.10      -1389.77          -nan      -1398.73
+      8      -1337.58      -1307.26          -nan      -1311.58
+---------------------------------------------------------------
+  All       -19732.22     -19356.93          -nan     -19520.30
+[Scaling factor = -3.707048]
+
+
+(1a) TI: Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) BTI: Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  SS: Steppingstone Sampling (Xie et al 2011)
+(3)  HS: Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+13:59:22   Program finished

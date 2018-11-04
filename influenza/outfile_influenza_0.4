@@ -1,0 +1,208 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ mexico                                                           
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 40 compute nodes are available.
+  Using Intel AVX (Advanced Vector Extensions)
+  PDF output enabled [Letter-size]
+  Version 5.0.3a   [January-08-2018]
+  Program started at   Sun Oct 28 13:49:27 2018
+         finished at Sun Oct 28 13:58:51 2018
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Mittag-Leffler with alpha=0.40]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequency 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)  Exponential  0.000000   0.100000   0.900000           -   1500  0.50000
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           2895380770
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 mexico         * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              50000000
+      Steps recorded (sample*rep):                     50000
+   Combining over replicates:                              5
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              5000000
+
+Print options:
+   Data file:              influenza_h1n1_mexico_2014_infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):           outfile_influenza_0.4
+   Output file (PDF):              outfile_influenza_0.4.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:       bayesallfile_influenza_0.4
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                                mexico
+Data file:                 influenza_h1n1_mexico_2014_infile
+Datatype:                                     Haplotype data
+Number of loci:                                            8
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.34 0.19 0.26 0.22, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.36 0.19 0.23 0.22, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.33 0.20 0.24 0.23, t/t ratio=2.000]
+     4         1 Felsenstein 84  [Bf:0.35 0.19 0.22 0.24, t/t ratio=2.000]
+     5         1 Felsenstein 84  [Bf:0.33 0.20 0.26 0.21, t/t ratio=2.000]
+     6         1 Felsenstein 84  [Bf:0.32 0.18 0.24 0.26, t/t ratio=2.000]
+     7         1 Felsenstein 84  [Bf:0.29 0.21 0.26 0.24, t/t ratio=2.000]
+     8         1 Felsenstein 84  [Bf:0.32 0.19 0.24 0.25, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     2280
+     2     2274
+     3     2151
+     4     1701
+     5     1497
+     6     1410
+     7     982
+     8     863
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 mexico                       1         6
+  1                              2         6
+  1                              3         6
+  1                              4         6
+  1                              5         6
+  1                              6         6
+  1                              7         6
+  1                              8         6
+    Total of all populations     1         6
+                                 2         6
+                                 3         6
+                                 4         6
+                                 5         6
+                                 6         6
+                                 7         6
+                                 8         6
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.06720  0.15720  0.21510  0.28620  0.52500  0.25530  0.27507
+    2  Theta_1         0.03240  0.10140  0.16170  0.23880  0.48780  0.20010  0.22080
+    3  Theta_1         0.04260  0.13320  0.16770  0.22140  0.47520  0.21750  0.23801
+    4  Theta_1         0.04200  0.11040  0.17370  0.24540  0.46200  0.21150  0.23216
+    5  Theta_1         0.03000  0.06300  0.13170  0.25080  0.38580  0.17310  0.19354
+    6  Theta_1         0.03780  0.08940  0.13470  0.20640  0.37260  0.18150  0.20207
+    7  Theta_1         0.02340  0.06420  0.11190  0.16440  0.32220  0.14190  0.16005
+    8  Theta_1         0.04980  0.15540  0.18030  0.21540  0.47940  0.22230  0.24130
+  All  Theta_1         0.18840  0.27300  0.30870  0.35880  0.52740  0.33390  0.34038
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus          TI(1a)       BTI(1b)         SS(2)         HS(3)
+---------------------------------------------------------------
+      1      -3387.21      -3321.54      -3319.89      -3337.41
+      2      -3370.56      -3302.61          -nan      -3321.58
+      3      -3248.98      -3180.79          -nan      -3196.24
+      4      -2659.56      -2589.02          -nan      -2596.68
+      5      -2240.20      -2195.52          -nan      -2205.48
+      6      -2136.35      -2089.11          -nan      -2097.91
+      7      -1410.56      -1390.63          -nan      -1398.54
+      8      -1345.25      -1310.06          -nan      -1311.76
+---------------------------------------------------------------
+  All       -19797.68     -19378.29          -nan     -19528.50
+[Scaling factor = 0.990344]
+
+
+(1a) TI: Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) BTI: Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  SS: Steppingstone Sampling (Xie et al 2011)
+(3)  HS: Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1               69161339/200018132          0.34578
+Genealogies           33687886/199981868           0.16845
+
+
+
+Temperatures during the run using bounded adaptive heating scheme
+===========================================================================
+
+Chain Temperature               log(marginal likelihood)  
+    1    1.00000          -2433.20047         inf
+    2    1.00000          -2436.71687         inf
+    3    1.00000          -2445.67838         inf
+    4    1.00000          -2651.02420    16.12171

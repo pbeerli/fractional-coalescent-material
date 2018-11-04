@@ -1,0 +1,15 @@
+Model                                 Log(mL)   LBF     Model-probability
+-------------------------------------------------------------------------
+1: outfile_humpbacknorth_0.4:               -553.47   -20.77        0.0000 
+2: outfile_humpbacknorth_0.45:              -550.39   -17.69        0.0000 
+3: outfile_humpbacknorth_0.5:               -547.51   -14.81        0.0000 
+4: outfile_humpbacknorth_0.55:              -544.84   -12.14        0.0000 
+5: outfile_humpbacknorth_0.6:               -542.41    -9.71        0.0000 
+6: outfile_humpbacknorth_0.65:              -540.20    -7.50        0.0002 
+7: outfile_humpbacknorth_0.7:               -538.10    -5.40        0.0015 
+8: outfile_humpbacknorth_0.75:              -536.30    -3.60        0.0089 
+9: outfile_humpbacknorth_0.8:               -534.77    -2.07        0.0409 
+10: outfile_humpbacknorth_0.85:              -533.68    -0.98        0.1217 
+11: outfile_humpbacknorth_0.9:               -532.95    -0.25        0.2525 
+12: outfile_humpbacknorth_0.95:              -532.70     0.00        0.3243 
+13: outfile_humpbacknorth_1.0:               -532.96    -0.26        0.2500 

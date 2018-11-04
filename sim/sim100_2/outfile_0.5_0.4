@@ -1,0 +1,521 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AUTO                                                              
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 39 compute nodes are available.
+  Using Intel AVX (Advanced Vector Extensions)
+  PDF output enabled [Letter-size]
+  Version 5.0.0a   [May-20-2017]
+  Program started at   Tue Aug 15 09:21:34 2017
+                                                                        
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Mittag-Leffler with alpha=0.40]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution:
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.20000
+
+
+
+Datatype: DNA sequence data
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           3869921199
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Romanshorn     * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                    100000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              2000000
+
+Print options:
+   Data file:                                     infile.0.5
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                 outfile_0.5_0.4
+   Output file (PDF):                    outfile_0.5_0.4.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:             bayesallfile_0.5_0.4
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                                 AUTO 
+Data file:                                        infile.0.5
+Datatype:                                      Sequence data
+Number of loci:                                          100
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Jukes-Cantor    [Basefreq: =0.25]
+     2         1 Jukes-Cantor    [Basefreq: =0.25]
+     3         1 Jukes-Cantor    [Basefreq: =0.25]
+     4         1 Jukes-Cantor    [Basefreq: =0.25]
+     5         1 Jukes-Cantor    [Basefreq: =0.25]
+     6         1 Jukes-Cantor    [Basefreq: =0.25]
+     7         1 Jukes-Cantor    [Basefreq: =0.25]
+     8         1 Jukes-Cantor    [Basefreq: =0.25]
+     9         1 Jukes-Cantor    [Basefreq: =0.25]
+    10         1 Jukes-Cantor    [Basefreq: =0.25]
+    11         1 Jukes-Cantor    [Basefreq: =0.25]
+    12         1 Jukes-Cantor    [Basefreq: =0.25]
+    13         1 Jukes-Cantor    [Basefreq: =0.25]
+    14         1 Jukes-Cantor    [Basefreq: =0.25]
+    15         1 Jukes-Cantor    [Basefreq: =0.25]
+    16         1 Jukes-Cantor    [Basefreq: =0.25]
+    17         1 Jukes-Cantor    [Basefreq: =0.25]
+    18         1 Jukes-Cantor    [Basefreq: =0.25]
+    19         1 Jukes-Cantor    [Basefreq: =0.25]
+    20         1 Jukes-Cantor    [Basefreq: =0.25]
+    21         1 Jukes-Cantor    [Basefreq: =0.25]
+    22         1 Jukes-Cantor    [Basefreq: =0.25]
+    23         1 Jukes-Cantor    [Basefreq: =0.25]
+    24         1 Jukes-Cantor    [Basefreq: =0.25]
+    25         1 Jukes-Cantor    [Basefreq: =0.25]
+    26         1 Jukes-Cantor    [Basefreq: =0.25]
+    27         1 Jukes-Cantor    [Basefreq: =0.25]
+    28         1 Jukes-Cantor    [Basefreq: =0.25]
+    29         1 Jukes-Cantor    [Basefreq: =0.25]
+    30         1 Jukes-Cantor    [Basefreq: =0.25]
+    31         1 Jukes-Cantor    [Basefreq: =0.25]
+    32         1 Jukes-Cantor    [Basefreq: =0.25]
+    33         1 Jukes-Cantor    [Basefreq: =0.25]
+    34         1 Jukes-Cantor    [Basefreq: =0.25]
+    35         1 Jukes-Cantor    [Basefreq: =0.25]
+    36         1 Jukes-Cantor    [Basefreq: =0.25]
+    37         1 Jukes-Cantor    [Basefreq: =0.25]
+    38         1 Jukes-Cantor    [Basefreq: =0.25]
+    39         1 Jukes-Cantor    [Basefreq: =0.25]
+    40         1 Jukes-Cantor    [Basefreq: =0.25]
+    41         1 Jukes-Cantor    [Basefreq: =0.25]
+    42         1 Jukes-Cantor    [Basefreq: =0.25]
+    43         1 Jukes-Cantor    [Basefreq: =0.25]
+    44         1 Jukes-Cantor    [Basefreq: =0.25]
+    45         1 Jukes-Cantor    [Basefreq: =0.25]
+    46         1 Jukes-Cantor    [Basefreq: =0.25]
+    47         1 Jukes-Cantor    [Basefreq: =0.25]
+    48         1 Jukes-Cantor    [Basefreq: =0.25]
+    49         1 Jukes-Cantor    [Basefreq: =0.25]
+    50         1 Jukes-Cantor    [Basefreq: =0.25]
+    51         1 Jukes-Cantor    [Basefreq: =0.25]
+    52         1 Jukes-Cantor    [Basefreq: =0.25]
+    53         1 Jukes-Cantor    [Basefreq: =0.25]
+    54         1 Jukes-Cantor    [Basefreq: =0.25]
+    55         1 Jukes-Cantor    [Basefreq: =0.25]
+    56         1 Jukes-Cantor    [Basefreq: =0.25]
+    57         1 Jukes-Cantor    [Basefreq: =0.25]
+    58         1 Jukes-Cantor    [Basefreq: =0.25]
+    59         1 Jukes-Cantor    [Basefreq: =0.25]
+    60         1 Jukes-Cantor    [Basefreq: =0.25]
+    61         1 Jukes-Cantor    [Basefreq: =0.25]
+    62         1 Jukes-Cantor    [Basefreq: =0.25]
+    63         1 Jukes-Cantor    [Basefreq: =0.25]
+    64         1 Jukes-Cantor    [Basefreq: =0.25]
+    65         1 Jukes-Cantor    [Basefreq: =0.25]
+    66         1 Jukes-Cantor    [Basefreq: =0.25]
+    67         1 Jukes-Cantor    [Basefreq: =0.25]
+    68         1 Jukes-Cantor    [Basefreq: =0.25]
+    69         1 Jukes-Cantor    [Basefreq: =0.25]
+    70         1 Jukes-Cantor    [Basefreq: =0.25]
+    71         1 Jukes-Cantor    [Basefreq: =0.25]
+    72         1 Jukes-Cantor    [Basefreq: =0.25]
+    73         1 Jukes-Cantor    [Basefreq: =0.25]
+    74         1 Jukes-Cantor    [Basefreq: =0.25]
+    75         1 Jukes-Cantor    [Basefreq: =0.25]
+    76         1 Jukes-Cantor    [Basefreq: =0.25]
+    77         1 Jukes-Cantor    [Basefreq: =0.25]
+    78         1 Jukes-Cantor    [Basefreq: =0.25]
+    79         1 Jukes-Cantor    [Basefreq: =0.25]
+    80         1 Jukes-Cantor    [Basefreq: =0.25]
+    81         1 Jukes-Cantor    [Basefreq: =0.25]
+    82         1 Jukes-Cantor    [Basefreq: =0.25]
+    83         1 Jukes-Cantor    [Basefreq: =0.25]
+    84         1 Jukes-Cantor    [Basefreq: =0.25]
+    85         1 Jukes-Cantor    [Basefreq: =0.25]
+    86         1 Jukes-Cantor    [Basefreq: =0.25]
+    87         1 Jukes-Cantor    [Basefreq: =0.25]
+    88         1 Jukes-Cantor    [Basefreq: =0.25]
+    89         1 Jukes-Cantor    [Basefreq: =0.25]
+    90         1 Jukes-Cantor    [Basefreq: =0.25]
+    91         1 Jukes-Cantor    [Basefreq: =0.25]
+    92         1 Jukes-Cantor    [Basefreq: =0.25]
+    93         1 Jukes-Cantor    [Basefreq: =0.25]
+    94         1 Jukes-Cantor    [Basefreq: =0.25]
+    95         1 Jukes-Cantor    [Basefreq: =0.25]
+    96         1 Jukes-Cantor    [Basefreq: =0.25]
+    97         1 Jukes-Cantor    [Basefreq: =0.25]
+    98         1 Jukes-Cantor    [Basefreq: =0.25]
+    99         1 Jukes-Cantor    [Basefreq: =0.25]
+   100         1 Jukes-Cantor    [Basefreq: =0.25]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     10000
+     2     10000
+     3     10000
+     4     10000
+     5     10000
+     6     10000
+     7     10000
+     8     10000
+     9     10000
+    10     10000
+    11     10000
+    12     10000
+    13     10000
+    14     10000
+    15     10000
+    16     10000
+    17     10000
+    18     10000
+    19     10000
+    20     10000
+    21     10000
+    22     10000
+    23     10000
+    24     10000
+    25     10000
+    26     10000
+    27     10000
+    28     10000
+    29     10000
+    30     10000
+    31     10000
+    32     10000
+    33     10000
+    34     10000
+    35     10000
+    36     10000
+    37     10000
+    38     10000
+    39     10000
+    40     10000
+    41     10000
+    42     10000
+    43     10000
+    44     10000
+    45     10000
+    46     10000
+    47     10000
+    48     10000
+    49     10000
+    50     10000
+    51     10000
+    52     10000
+    53     10000
+    54     10000
+    55     10000
+    56     10000
+    57     10000
+    58     10000
+    59     10000
+    60     10000
+    61     10000
+    62     10000
+    63     10000
+    64     10000
+    65     10000
+    66     10000
+    67     10000
+    68     10000
+    69     10000
+    70     10000
+    71     10000
+    72     10000
+    73     10000
+    74     10000
+    75     10000
+    76     10000
+    77     10000
+    78     10000
+    79     10000
+    80     10000
+    81     10000
+    82     10000
+    83     10000
+    84     10000
+    85     10000
+    86     10000
+    87     10000
+    88     10000
+    89     10000
+    90     10000
+    91     10000
+    92     10000
+    93     10000
+    94     10000
+    95     10000
+    96     10000
+    97     10000
+    98     10000
+    99     10000
+   100     10000
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Romanshorn_0                 1        10
+  1                              2        10
+  1                              3        10
+  1                              4        10
+  1                              5        10
+  1                              6        10
+  1                              7        10
+  1                              8        10
+  1                              9        10
+  1                             10        10
+  1                             11        10
+  1                             12        10
+  1                             13        10
+  1                             14        10
+  1                             15        10
+  1                             16        10
+  1                             17        10
+  1                             18        10
+  1                             19        10
+  1                             20        10
+  1                             21        10
+  1                             22        10
+  1                             23        10
+  1                             24        10
+  1                             25        10
+  1                             26        10
+  1                             27        10
+  1                             28        10
+  1                             29        10
+  1                             30        10
+  1                             31        10
+  1                             32        10
+  1                             33        10
+  1                             34        10
+  1                             35        10
+  1                             36        10
+  1                             37        10
+  1                             38        10
+  1                             39        10
+  1                             40        10
+  1                             41        10
+  1                             42        10
+  1                             43        10
+  1                             44        10
+  1                             45        10
+  1                             46        10
+  1                             47        10
+  1                             48        10
+  1                             49        10
+  1                             50        10
+  1                             51        10
+  1                             52        10
+  1                             53        10
+  1                             54        10
+  1                             55        10
+  1                             56        10
+  1                             57        10
+  1                             58        10
+  1                             59        10
+  1                             60        10
+  1                             61        10
+  1                             62        10
+  1                             63        10
+  1                             64        10
+  1                             65        10
+  1                             66        10
+  1                             67        10
+  1                             68        10
+  1                             69        10
+  1                             70        10
+  1                             71        10
+  1                             72        10
+  1                             73        10
+  1                             74        10
+  1                             75        10
+  1                             76        10
+  1                             77        10
+  1                             78        10
+  1                             79        10
+  1                             80        10
+  1                             81        10
+  1                             82        10
+  1                             83        10
+  1                             84        10
+  1                             85        10
+  1                             86        10
+  1                             87        10
+  1                             88        10
+  1                             89        10
+  1                             90        10
+  1                             91        10
+  1                             92        10
+  1                             93        10
+  1                             94        10
+  1                             95        10
+  1                             96        10
+  1                             97        10
+  1                             98        10
+  1                             99        10
+  1                            100        10
+    Total of all populations     1        10
+                                 2        10
+                                 3        10
+                                 4        10
+                                 5        10
+                                 6        10
+                                 7        10
+                                 8        10
+                                 9        10
+                                10        10
+                                11        10
+                                12        10
+                                13        10
+                                14        10
+                                15        10
+                                16        10
+                                17        10
+                                18        10
+                                19        10
+                                20        10
+                                21        10
+                                22        10
+                                23        10
+                                24        10
+                                25        10
+                                26        10
+                                27        10
+                                28        10
+                                29        10
+                                30        10
+                                31        10
+                                32        10
+                                33        10
+                                34        10
+                                35        10
+                                36        10
+                                37        10
+                                38        10
+                                39        10
+                                40        10
+                                41        10
+                                42        10
+                                43        10
+                                44        10
+                                45        10
+                                46        10
+                                47        10
+                                48        10
+                                49        10
+                                50        10
+                                51        10
+                                52        10
+                                53        10
+                                54        10
+                                55        10
+                                56        10
+                                57        10
+                                58        10
+                                59        10
+                                60        10
+                                61        10
+                                62        10
+                                63        10
+                                64        10
+                                65        10
+                                66        10
+                                67        10
+                                68        10
+                                69        10
+                                70        10
+                                71        10
+                                72        10
+                                73        10
+                                74        10
+                                75        10
+                                76        10
+                                77        10
+                                78        10
+                                79        10
+                                80        10
+                                81        10
+                                82        10
+                                83        10
+                                84        10
+                                85        10
+                                86        10
+                                87        10
+                                88        10
+                                89        10
+                                90        10
+                                91        10
+                                92        10
+                                93        10
+                                94        10
+                                95        10
+                                96        10
+                                97        10
+                                98        10
+                                99        10
+                               100        10
+

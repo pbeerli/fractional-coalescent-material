@@ -1,0 +1,259 @@
+/opt/hpc/gnu/openmpi/bin
+hpc-m36-3-10
+.:/panfs/storage.local/scs/beerli/home/beerli/bin:/panfs/storage.local/opt/hpc/gnu/openmpi/bin:/opt/hpc/gnu/openmpi/bin:.:/panfs/storage.local/scs/beerli/home/beerli/bin:/panfs/storage.local/scs/beerli/home/beerli/valgrind/bin:.:/panfs/storage.local/scs/beerli/home/beerli/bin/:/opt/python27/anaconda/bin/:/panfs/storage.local/opt/hpc/gnu/bin:/opt/hpc/gnu/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/panfs/storage.local/scs/beerli/scratch/genomics_tools/bin:/panfs/storage.local/scs/beerli/home/beerli/src/BEASTv1.7.1/bin:/panfs/storage.local/scs/beerli/home/beerli/java/jdk1.8.0_51/jre/bin:/panfs/storage.local/scs/beerli/home/beerli/java/jdk1.8.0_51/bin
+hpc-m36-3-10
+/panfs/storage.local/scs/beerli/scratch/beerli/migrate-mlf2/mittag-leffler/structure_test_low_dec2017
+Reading parmfile "parmfile_1.0_0.6"....
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 20 compute nodes are available.
+  PDF output enabled [Letter-size]
+  Version 5.0.0a   [May-20-2017]
+  Program started at   Wed Dec 20 23:09:00 2017
+
+
+Master random number seed: 4255456093
+0
+0> =#=#=#=#=>[s] 10 10 
+
+
+Reading (1) Romanshorn_0 ...
+Reading (2) Arbon_1 ...
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Mittag-Leffler with alpha=0.60]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution:
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.100000   0.200000   0.010000    1500  0.20000
+
+
+
+Datatype: DNA sequence data
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 1.00 1.00 
+1.00 1.00 1.00 1.00 1.00 
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           4255456093
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Romanshorn     * * 
+   1 Arbon_1        * * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):               2000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):               500000
+
+Print options:
+   Data file:                                     infile.1.0
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                 outfile_1.0_0.6
+   Output file (PDF):                    outfile_1.0_0.6.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:             bayesallfile_1.0_0.6
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                                 AUTO 
+Data file:                                        infile.1.0
+Datatype:                                      Sequence data
+Number of loci:                                           10
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.25 0.26 0.25 0.25, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+     4         1 Felsenstein 84  [Bf:0.26 0.24 0.25 0.25, t/t ratio=2.000]
+     5         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+     6         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+     7         1 Felsenstein 84  [Bf:0.25 0.25 0.24 0.25, t/t ratio=2.000]
+     8         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+     9         1 Felsenstein 84  [Bf:0.25 0.26 0.25 0.25, t/t ratio=2.000]
+    10         1 Felsenstein 84  [Bf:0.25 0.25 0.25 0.25, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     10000
+     2     10000
+     3     10000
+     4     10000
+     5     10000
+     6     10000
+     7     10000
+     8     10000
+     9     10000
+    10     10000
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Romanshorn_0                 1        10
+  1                              2        10
+  1                              3        10
+  1                              4        10
+  1                              5        10
+  1                              6        10
+  1                              7        10
+  1                              8        10
+  1                              9        10
+  1                             10        10
+  1 Arbon_1                      1        10
+  1                              2        10
+  1                              3        10
+  1                              4        10
+  1                              5        10
+  1                              6        10
+  1                              7        10
+  1                              8        10
+  1                              9        10
+  1                             10        10
+    Total of all populations     1        20
+                                 2        20
+                                 3        20
+                                 4        20
+                                 5        20
+                                 6        20
+                                 7        20
+                                 8        20
+                                 9        20
+                                10        20
+
+[  9] 23:09:02   Burn-in of 500000 steps (Locus: 9/10, Replicate: 1/2) 
+[  4] 23:09:02   Burn-in of 500000 steps (Locus: 4/10, Replicate: 1/2) 
+[  8] 23:09:02   Burn-in of 500000 steps (Locus: 8/10, Replicate: 1/2) 
+[  1] 23:09:02   Burn-in of 500000 steps (Locus: 1/10, Replicate: 1/2) 
+[  6] 23:09:02   Burn-in of 500000 steps (Locus: 6/10, Replicate: 1/2) 
+[  3] 23:09:02   Burn-in of 500000 steps (Locus: 3/10, Replicate: 1/2) 
+[  2] 23:09:02   Burn-in of 500000 steps (Locus: 2/10, Replicate: 1/2) 
+[  5] 23:09:02   Burn-in of 500000 steps (Locus: 5/10, Replicate: 1/2) 
+[ 10] 23:09:02   Burn-in of 500000 steps (Locus: 10/10, Replicate: 1/2) 
+[  7] 23:09:02   Burn-in of 500000 steps (Locus: 7/10, Replicate: 1/2) 
+[ 13] 23:09:12   Burn-in of 500000 steps (Locus: 6/10, Replicate: 2/2) 
+[ 15] 23:09:12   Burn-in of 500000 steps (Locus: 3/10, Replicate: 2/2) 
+[ 18] 23:09:12   Burn-in of 500000 steps (Locus: 10/10, Replicate: 2/2) 
+[ 14] 23:09:12   Burn-in of 500000 steps (Locus: 1/10, Replicate: 2/2) 
+[ 12] 23:09:22   Burn-in of 500000 steps (Locus: 9/10, Replicate: 2/2) 
+[ 11] 23:09:22   Burn-in of 500000 steps (Locus: 2/10, Replicate: 2/2) 
+[ 16] 23:09:22   Burn-in of 500000 steps (Locus: 4/10, Replicate: 2/2) 
+[ 19] 23:09:22   Burn-in of 500000 steps (Locus: 8/10, Replicate: 2/2) 
+[ 17] 23:09:22   Burn-in of 500000 steps (Locus: 5/10, Replicate: 2/2) 
+[ 20] 23:09:22   Burn-in of 500000 steps (Locus: 7/10, Replicate: 2/2) 
+[  7] 23:12:04   Sampling of 1000000 steps (Locus: 7/10, Replicate: 1/2) 
+[ 20] 23:12:23   Sampling of 1000000 steps (Locus: 7/10, Replicate: 2/2) 
+[  9] 23:12:24   Sampling of 1000000 steps (Locus: 9/10, Replicate: 1/2) 
+[  4] 23:12:30   Sampling of 1000000 steps (Locus: 4/10, Replicate: 1/2) 
+[  3] 23:12:37   Sampling of 1000000 steps (Locus: 3/10, Replicate: 1/2) 
+[ 12] 23:12:44   Sampling of 1000000 steps (Locus: 9/10, Replicate: 2/2) 
+[  6] 23:12:46   Sampling of 1000000 steps (Locus: 6/10, Replicate: 1/2) 
+[ 15] 23:12:47   Sampling of 1000000 steps (Locus: 3/10, Replicate: 2/2) 
+[  8] 23:12:50   Sampling of 1000000 steps (Locus: 8/10, Replicate: 1/2) 
+[ 16] 23:12:50   Sampling of 1000000 steps (Locus: 4/10, Replicate: 2/2) 
+[ 13] 23:12:55   Sampling of 1000000 steps (Locus: 6/10, Replicate: 2/2) 
+[  1] 23:13:02   Sampling of 1000000 steps (Locus: 1/10, Replicate: 1/2) 
+[ 19] 23:13:11   Sampling of 1000000 steps (Locus: 8/10, Replicate: 2/2) 
+[ 14] 23:13:12   Sampling of 1000000 steps (Locus: 1/10, Replicate: 2/2) 
+[ 10] 23:13:14   Sampling of 1000000 steps (Locus: 10/10, Replicate: 1/2) 
+[ 18] 23:13:23   Sampling of 1000000 steps (Locus: 10/10, Replicate: 2/2) 
+[  2] 23:13:46   Sampling of 1000000 steps (Locus: 2/10, Replicate: 1/2) 
+[ 11] 23:14:07   Sampling of 1000000 steps (Locus: 2/10, Replicate: 2/2) 
+[  5] 23:16:06   Sampling of 1000000 steps (Locus: 5/10, Replicate: 1/2) 
+[ 17] 23:16:27   Sampling of 1000000 steps (Locus: 5/10, Replicate: 2/2) 
+[  7] 23:18:16   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.60) Swap(0,13191,0)
+[ 20] 23:18:31   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.60) Swap(0,16964,0)
+[  9] 23:19:14   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.05,1.60) Swap(0,17290,0)
+[  4] 23:19:34   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.59) Swap(0,16502,0)
+[ 12] 23:19:35   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.05,1.60) Swap(0,15686,0)
+[ 16] 23:19:52   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.59) Swap(0,14190,0)
+[  3] 23:19:54   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.60) Swap(0,9392,0)
+[ 15] 23:20:02   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.60) Swap(0,15326,0)
+[  6] 23:20:19   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.05,1.58) Swap(0,15014,0)
+[ 13] 23:20:26   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.05,1.58) Swap(0,13089,0)
+[  8] 23:20:33   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.59) Swap(0,19992,0)
+[ 19] 23:20:54   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.58) Swap(0,18575,0)
+[  1] 23:21:08   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.04,1.59) Swap(0,11288,0)
+[ 14] 23:21:17   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.04,1.59) Swap(0,9655,0)
+[ 10] 23:21:43   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.04,0.05,1.59) Swap(0,12869,0)
+[ 18] 23:21:51   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.03,0.03,0.05,1.59) Swap(0,13648,0)
+[  2] 23:23:13   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.02,0.03,0.04,1.59) Swap(0,16355,0)
+[ 11] 23:23:36   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.02,0.03,0.04,1.59) Swap(0,15269,0)
+[  5] 23:29:39   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.02,0.02,0.03,1.58) Swap(0,12712,0)
+[ 17] 23:29:56   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.02,0.02,0.03,1.58) Swap(0,14254,0)
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus          TI(1a)       BTI(1b)         SS(2)         HS(3)
+---------------------------------------------------------------
+      1     -87669.59     -38437.84     -29174.58     -29271.08
+      2     -86378.69     -38849.30          -nan     -30002.34
+      3     -40246.91     -25663.40          -nan     -23068.13
+      4     -80919.80     -36763.75          -nan     -28551.06
+      5    -109001.41     -46604.77          -nan     -35025.09
+      6     -97668.83     -40964.86          -nan     -30411.69
+      7     -35174.93     -23912.06          -nan     -21946.13
+      8     -92104.13     -39823.75          -nan     -30094.63
+      9     -32837.76     -23692.48          -nan     -22142.49
+     10     -63316.86     -32697.41          -nan     -27040.32
+---------------------------------------------------------------
+  All      -725318.70    -347409.42          -nan    -277670.54
+[Scaling factor = 0.203214]
+
+
+(1a) TI: Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) BTI: Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  SS: Steppingstone Sampling (Xie et al 2011)
+(3)  HS: Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+23:30:18   Program finished

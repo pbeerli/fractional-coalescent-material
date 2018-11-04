@@ -1,0 +1,12 @@
+Model                       Log(mL)   LBF     Model-probability
+---------------------------------------------------------------
+1:outfile_plasmodium_0.1:       -8022.21   -35.14        0.0000 
+2:outfile_plasmodium_0.2:       -8020.80   -33.73        0.0000 
+3:outfile_plasmodium_0.3:       -8015.53   -28.46        0.0000 
+4:outfile_plasmodium_0.4:       -8006.60   -19.53        0.0000 
+5:outfile_plasmodium_0.5:       -7996.41    -9.34        0.0001 
+6:outfile_plasmodium_0.6:       -7988.27    -1.20        0.2266 
+7:outfile_plasmodium_0.7:       -7987.07     0.00        0.7524 
+8:outfile_plasmodium_0.8:       -7990.66    -3.59        0.0208 
+9:outfile_plasmodium_0.9:       -7995.71    -8.64        0.0001 
+10:outfile_plasmodium_1.0:       -8008.34   -21.27        0.0000 

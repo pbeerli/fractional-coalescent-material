@@ -1,0 +1,7 @@
+mpirun --oversubscribe -np 6 ~/src/migrate-mlf/migrate-mlf-mpi parmfile_1.0_1.0s3 -nomenu
+mpirun --oversubscribe -np 6 ~/src/migrate-mlf/migrate-mlf-mpi parmfile_1.0_1.0s2 -nomenu
+mpirun --oversubscribe -np 6 ~/src/migrate-mlf/migrate-mlf-mpi parmfile_1.0_1.0s -nomenu
+mpirun --oversubscribe -np 6 ~/src/migrate-mlf/migrate-mlf-mpi parmfile_1.0_1.0  -nomenu
+mpirun --oversubscribe -np 6 ~/src/migrate-mlf/migrate-mlf-mpi parmfile_1.0_0.9  -nomenu
+mpirun --oversubscribe -np 6 ~/src/migrate-mlf/migrate-mlf-mpi parmfile_1.0_0.8  -nomenu
+

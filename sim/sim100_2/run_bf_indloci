@@ -1,0 +1,7 @@
+python ../bf_indloci.py 0.4 > gugus
+python ../bf_indloci.py 0.5 >> gugus
+python ../bf_indloci.py 0.6 >> gugus
+python ../bf_indloci.py 0.7 >> gugus
+python ../bf_indloci.py 0.8 >> gugus
+python ../bf_indloci.py 0.9 >> gugus
+python ../bf_indloci.py 1.0 >> gugus

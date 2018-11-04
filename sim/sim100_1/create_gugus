@@ -1,0 +1,7 @@
+python bf_indloci.py 0.4 $1
+python bf_indloci.py 0.5 $1
+python bf_indloci.py 0.6 $1
+python bf_indloci.py 0.7 $1
+python bf_indloci.py 0.8 $1
+python bf_indloci.py 0.9 $1
+python bf_indloci.py 1.0 $1

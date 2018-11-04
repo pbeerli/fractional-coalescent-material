@@ -1,0 +1,102 @@
+PARALLELIZED MIGRATE
+====================
+Peter Beerli
+beerli@fsu.edu
+[updated November 2014]
+
+Contents:
+This text describes how you can improve the performance of migrate on most modern 
+computers with multiple cores or on computer clusters (adhoc:  e.g. your lab, or
+high performance computing center). You can parallelize migrate runs by using a 
+virtual parallel architecture with a message-passing interface (MPI).
+
+The MPI-version runs fine on clusters of MacOSX workstations, dedicated clusters of Linux machines, 
+and windows workstations. I use the freely available openmpi package (http://openmpi.org) 
+for the compile and runtime parallel environment. In the past I had problem with earlier 
+versions of MPICH and do not recomment its use with migrate because I lack experience 
+with its successor MPICH2. I suggest to use openmpi
+because it was a standard environment on MacOS 10.5 and 10.6, and easy to install on macs and on 
+linux clusters and even windows (for windows look for openmpi 1.5 binary install). 
+
+
+I. Message passing interface 
+============================
+
+(1) - Download OPENMPI from  http://www.openmpi.org 
+    - install OPENMPI on all machines (if this is to complicated for you ask a
+      sysadmin or other guru to help, the openmpi documentation _is_ helpful.
+      [On computer cluster you certainly will need to talk to the system administrator]
+
+    - prepare a file hosts according to the specs in the openmpi distribution,
+       the master node needs to be the first machine mentioned.
+      my hosts looks like this:
+      ciguri slots=4
+      zork   slots=2
+      nagual slots=32
+	      
+    - make sure that you can access all machines using ssh (I use openssh)
+     without the need to specify a password, see man ssh-keygen and man ssh
+     if you have firewalls installed on your individual systems then you would need to allow
+     the individual machines to open/request "random" ports on the other machines. 
+     
+    - LINUX: change into the migrate-VERSION directory
+      configure and then use "make mpis", a binary named migrate-n-mpi
+      will be created.
+      MAC: follow the Linux instructions, or simply use the mac binaries
+      that use the migrateshell.app 
+      WINDOWS: use the migrate-n-mpi.exe binary, its compilation is more
+      tricky and currently I have no windows compilation instructions.
+      If you want to try use the makefilempi.msvc file in the src directory.
+    
+(2)  If your machines have no cross-mounted file system,
+     you need to make sure that migrate-n-mpi is 
+     in the same path e.g. /home/beerli/bin/migrate-n-mpi on 
+     EVERY machine.
+
+(3) Try to run the following command.
+    cd into the example directory (I assume here that you have src and example
+    on the same hierarchical level and that the executable is still in src:  
+    
+    mpirun  -np 7 --hostfile hosts ../src/migrate-n-mpi parmfile.testbayes
+     6 loci can get analyzed at once,
+     the log is not very comprehensive because all 7 processes
+     write to the same console, 7 because there is one master-node
+     who does only scheduling, 6 worker-nodes
+     do the actual tree rearrangements and all calculations.
+     the number you specify has nothing to do with the physical computers,
+     OPENMPI can run several nodes on a single CPU.
+
+
+
+good luck
+
+Peter
+<beerli@fsu.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

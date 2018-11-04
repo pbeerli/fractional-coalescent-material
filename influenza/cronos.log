@@ -1,0 +1,282 @@
+10:12:11
+Submitted batch job 543785
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543786
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543787
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543788
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543789
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543790
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543791
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543792
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543793
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543794
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543795
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543796
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill'] @
+Submitted batch job 543797
+['migrate-n-mpi', 'parmfile', 'job2017-08-08', 2, '4:00:00', 'backfill']
+['./migrate-n-mpi-mlf', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-n-mpi-mlf', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill']
+@ ['./migrate-n-mpi-mlf', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill'] @
+Tue Aug  8 10:12:12 2017 start [1, 1, 1]
+Tue Aug  8 10:12:13 2017 end [1, 1, 14] Launchfile: 0
+08:46:48
+Submitted batch job 2205092
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205093
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205094
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205095
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205096
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205097
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205098
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205099
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205100
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205101
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205102
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205103
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205104
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill'] @
+Sat Dec  2 08:46:48 2017 start [35, 1, 1]
+Sat Dec  2 08:46:50 2017 end [35, 1, 14] Launchfile: 0
+08:51:41
+Submitted batch job 2205115
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.45', 'log_0.45', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205116
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.55', 'log_0.55', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205117
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.65', 'log_0.65', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205118
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.75', 'log_0.75', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205119
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.85', 'log_0.85', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205120
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.95', 'log_0.95', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205121
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.4', 'log_0.4', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205122
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.5', 'log_0.5', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205123
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.6', 'log_0.6', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205125
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.7', 'log_0.7', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205126
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.8', 'log_0.8', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205127
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_0.9', 'log_0.9', '9', '100:00:00', 'backfill'] @
+Submitted batch job 2205128
+['migrate-n-mpi', 'parmfile', 'job2017-12-02', 2, '4:00:00', 'backfill']
+['./migrate-mlf-mpi', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill']
+batchflag L
+dobackfill o
+slurm ['./migrate-mlf-mpi', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill']
+@ ['./migrate-mlf-mpi', 'parmfile_1.0', 'log_1.0', '9', '100:00:00', 'backfill'] @
+Sat Dec  2 08:51:42 2017 start [35, 1, 1]
+Sat Dec  2 08:51:43 2017 end [35, 1, 14] Launchfile: 0

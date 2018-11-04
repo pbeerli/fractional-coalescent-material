@@ -1,0 +1,2 @@
+grep ":" bf-table | tr -s '_ :' ' ' | cut -d' ' -f4,6 > bf-tabler
+grep ":" theta-table | tr -s '_ :' ' ' | cut -d' ' -f3,9 > theta-tabler

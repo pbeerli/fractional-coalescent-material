@@ -1,0 +1,26 @@
+Instructions to install a parallel runtime environment for windows machine
+--------------------------------------------------------------------------
+(currently I have only managed to create a 32bit binary)
+
+(1) install openmpi on your windows machine (I have no access to a windows cluster
+so you may need to talk to someone who could help to install and test openmpi 
+for several connected machines). But if your machine has multiple cores 
+than your analysis can run about #cores times faster than with the standard windows code.
+Download
+http://www.open-mpi.org/software/ompi/v1.5/downloads/OpenMPI_v1.5.3-2_win32.exe
+and follow their installation instructions.
+
+(2) try to run the migrate-n-mpi.exe binary in the example directory, I assume you are
+in the main migrate directory and you run a terminal window (for example using the run command)
+
+cd example
+mpirun -np 3 ..\migrate-n-mpi.exe parmfile.testbayes -nomenu
+
+(3) if the above command starts and finishes, you have set up parallel migrate
+and should be able to use it for your own projects.
+
+(4) Send improvement suggestions of this README to me at beerli@fsu.edu
+
+
+
+ 

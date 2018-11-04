@@ -1,0 +1,51 @@
+README
+======
+Migrate version 4.1.3a
+
+This directory contains a few examples and some timings using different compiled versions of migrate 4.1.3
+
+infile.ep        Allozyme dataset (no ouput shown)  
+infile.gap       Data set using 5 indpendent sequence loci of a single population (outfile-gap-2015Feb22.pdf)
+infile.msat      Data set using 10 msat loci (this dataset was used in the tests (outfile-bayes-2015Feb22.pdf)
+infile.seq       Sequence data with two indendent loci (using the old data organization, but new syntax)
+twoswisstowns    Mixture of new and old syntax first old-style locus uses two different mutation models,
+                 second oldstyle locus is treated as two independent loci, 5 individuals are not assigned to
+                 a particular population, and their assignment wil be estimated (this may lead to an underestimate
+                 of the migration rates)
+
+
+
+Timings
+-------
+On Macbook Pro Retina with
+Intel(R) Core(TM) i7-4960HQ CPU @ 2.60GHz
+[8 hypercores]
+
+Compiled as:
+(1) using AVX (automatic if system parameter __AVX__ is defined)
+(2) using GRANDCENTRAL DISPATCH and AVX (automatic if system parameter __AVX__ is defined)
+(3) using Open MPI: 1.8.2 + AVX + GRANDCENTRAL DISPATCH on 8 cores
+
+
+Speed:
+Speed for the parmfile.testbayes example (compare to the results in outfile-bayes-2015Feb22
+[you results may vary because the order of the random number generator access is not the 
+same when using GRANDCENTRAL DISPATCH]
+
+(1) Consecutive runs should return identical values (tested on Mac) 
+Migrate:example>time ../migrate-n parmfile.testbayes -nomenu > log
+real	12m33.437s <== wall clock time
+user	12m32.972s
+sys	0m0.361s
+
+(2) Consecutive runs are slightly different
+Migrate:example>time ../migrate-n parmfile.testbayes -nomenu > log
+real	5m55.382s  <== wall clock time
+user	13m47.374s
+sys	1m13.242s
+
+(3) Parallel processing on a single cpu (using 8 nodes)
+real	4m2.319s   <== wall clock time
+user	26m10.476s
+sys	1m8.125s
+

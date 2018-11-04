@@ -1,0 +1,219 @@
+  ==========================================================
+    Example: sequence data set wit two loci [simulated data]
+  ==========================================================
+  MIGRATION RATE AND POPULATION SIZE ESTIMATION
+  using Markov Chain Monte Carlo simulation
+  ==========================================================
+  Version 4.1.3a
+
+  Program started at Sun Feb 22 14:04:02 2015
+         finished at Sun Feb 22 14:08:31 2015
+     
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)       Slice sampling
+Migration rate      (M)       Slice sampling
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta
+-------------------------  ------------ ---------- ---------- ---------- ----------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Population size (Theta_3)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Population size (Theta_4)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Migration 4 to 2 (M)      Uniform  0.000000  10000.0000 20000.0000 2000.00000
+Ancestor 4 to 2 (D_time)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Ancestor 4 to 2 (S_time)      Uniform  0.000000   0.500000   1.000000   0.100000 
+Ancestor 4 to 3 (D_time)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Ancestor 4 to 3 (S_time)      Uniform  0.000000   0.500000   1.000000   0.100000 
+Ancestor 1 to 4 (D_time)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Ancestor 1 to 4 (S_time)      Uniform  0.000000   0.500000   1.000000   0.100000 
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (from parmfile)            310705631
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Africa         * 0 0 0 
+   2 Americas       0 * 0 D 
+   3 Pacific        0 0 * d 
+   4 Asia           d 0 0 * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):               1000000
+      Steps recorded (sample*rep):                     10000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):               100000
+
+Print options:
+   Data file:                                     infile.seq
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                     outfile-seq
+   Output file (PDF):                        outfile-seq.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:  Example: sequence data set wit two loci [simulated d
+Data file:                                        infile.seq
+Datatype:                                     Haplotype data
+Number of loci:                                            2
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.31 0.19 0.28 0.22, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.28 0.22 0.21 0.29, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     145
+     2     345
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Africa                       1        25
+  1                              2        25
+  2 Americas                     1        25
+  2                              2        25
+  3 Pacific                      1        25
+  3                              2        25
+  4 Asia                         1        25
+  4                              2        25
+    Total of all populations     1       100
+                                 2       100
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.01600  0.02440  0.03010  0.03640  0.05120  0.03210  0.03293
+    1  Theta_2         0.00000  0.00180  0.00530  0.01460  0.06900  0.01330  0.01972
+    1  Theta_3         0.00040  0.00440  0.00790  0.01180  0.02620  0.01010  0.01152
+    1  Theta_4         0.00600  0.01280  0.01670  0.03080  0.05840  0.02690  0.02909
+    1  M_4->2           0.0000   0.0000 780.0000 1800.0000 11520.0000 1820.0000 3340.4508
+    1  D_4->2          0.06933  0.07320  0.08003  0.08660  0.09193  0.04923  0.04948
+    1  S_4->2          0.40000  0.41867  0.44300  0.49467  0.50533  0.50233  0.50300
+    1  D_4->3          0.00000  0.00000  0.00203  0.00540  0.06853  0.00543  0.01861
+    1  S_4->3          0.00000  0.00000  0.00767  0.02667  0.10000  0.02700  0.18866
+    1  D_1->4          0.00000  0.00113  0.00250  0.00507  0.01073  0.00423  0.00487
+    1  S_1->4          0.00000  0.00200  0.00967  0.01733  0.03400  0.01500  0.01884
+    2  Theta_1         0.00320  0.00740  0.01030  0.01360  0.02140  0.01150  0.01190
+    2  Theta_2         0.00120  0.00180  0.00570  0.03780  0.09120  0.04270  0.04513
+    2  Theta_3         0.00000  0.00280  0.00570  0.00840  0.01700  0.00690  0.00761
+    2  Theta_4         0.00000  0.00340  0.00570  0.00800  0.01380  0.00650  0.00671
+    2  M_4->2          4000.00  5120.00  7140.00 12160.00 19680.00 10660.00 11190.43
+    2  D_4->2          0.00147  0.01640  0.02037  0.02560  0.04567  0.05023  0.05005
+    2  S_4->2          0.01667  0.27333  0.31567  0.34667  0.82067  0.49767  0.49691
+    2  D_4->3          0.00000  0.00013  0.00117  0.00213  0.02087  0.00197  0.00587
+    2  S_4->3          0.00000  0.00000  0.00300  0.01267  0.06133  0.01300  0.05338
+    2  D_1->4          0.00000  0.00053  0.00190  0.00320  0.02087  0.00277  0.00633
+    2  S_1->4          0.00000  0.00000  0.00567  0.01333  0.08067  0.01367  0.05032
+  All  Theta_1         0.00280  0.00440  0.00910  0.01460  0.04820  0.01790  0.02207
+  All  Theta_2         0.00000  0.00180  0.00530  0.01300  0.05940  0.01170  0.01690
+  All  Theta_3         0.00060  0.00420  0.00670  0.00900  0.01420  0.00730  0.00746
+  All  Theta_4         0.00000  0.00160  0.00570  0.01300  0.05240  0.01210  0.01904
+  All  M_4->2           0.0000   0.0000 740.0000 2040.0000 12800.0000 2220.0000 4750.8522
+  All  D_4->2          0.00127  0.01507  0.01877  0.02207  0.04520  0.04963  0.04965
+  All  S_4->2          0.26400  0.27400  0.30367  0.33867  0.40067  0.50033  0.50053
+  All  D_4->3          0.00000  0.00027  0.00117  0.00200  0.00473  0.00170  0.00222
+  All  S_4->3          0.00000  0.00000  0.00300  0.01067  0.02467  0.01100  0.00610
+  All  D_1->4          0.00000  0.00067  0.00190  0.00300  0.00607  0.00243  0.00260
+  All  S_1->4          0.00000  0.00000  0.00633  0.01200  0.02667  0.01233  0.00700
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)     Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1               -970.92                       -568.59                -451.37
+      2               -887.84                       -733.75                -657.62
+---------------------------------------------------------------------------------------
+  All                -1855.97                      -1299.54               -1106.20
+[Scaling factor = 2.791429]
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                  91122/91122             1.00000
+Theta_2                  91414/91414             1.00000
+Theta_3                  90868/90868             1.00000
+Theta_4                  90370/90370             1.00000
+M_4->2                   90470/90470             1.00000
+D_4->2                    90744/90964             0.99758
+S_4->2                    90499/91042             0.99404
+D_4->3                    25702/90849             0.28291
+S_4->3                    20197/91060             0.22180
+D_1->4                    14563/90769             0.16044
+S_1->4                     9768/90947             0.10740
+Genealogies             168181/1000125            0.16816
+
+Autocorrelation and Effective sample size
+-------------------------------------------------------------------
+
+[  0]   Parameter         Autocorrelation(*)   Effective Sample size
+  ---------         ---------------      ---------------------
+  Theta_1                0.59491              5097.36
+  Theta_2                0.54448              6149.47
+  Theta_3                0.71852              2701.75
+  Theta_4                0.77297              2743.94
+  M_4->2                 0.81479              2243.67
+  Ln[Prob(D|P)]          0.19277             13393.60
+  (*) averaged over loci.
+

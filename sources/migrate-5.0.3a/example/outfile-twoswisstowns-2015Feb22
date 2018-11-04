@@ -1,0 +1,219 @@
+  =============================================
+   two (fake) Swiss towns                      
+  =============================================
+  MIGRATION RATE AND POPULATION SIZE ESTIMATION
+  using Markov Chain Monte Carlo simulation
+  =============================================
+  Version 4.1.3a
+
+  Program started at Sun Feb 22 14:16:11 2015
+         finished at Sun Feb 22 14:16:56 2015
+     
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta
+-------------------------  ------------ ---------- ---------- ---------- ----------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000 
+Migration 2 to 1 (M)      Uniform  0.000000  500.000000 1000.00000 100.000000
+Migration 1 to 2 (M)      Uniform  0.000000  500.000000 1000.00000 100.000000
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)            784408000
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Aadorf         * * 
+   2 Bern           * * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):                100000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              4
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):                25000
+
+Print options:
+   Data file:                                  twoswisstowns
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):           outfile-twoswisstowns
+   Output file (PDF):              outfile-twoswisstowns.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                two (fake) Swiss towns
+Data file:                                     twoswisstowns
+Datatype:                                     Haplotype data
+Number of loci:                                            3
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.26 0.27 0.22 0.25, t/t ratio=2.000]
+     1         2 Felsenstein 84  [Bf:0.24 0.27 0.22 0.27, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.26 0.23 0.25 0.25, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.26 0.24 0.24 0.26, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     500 500
+     2     300
+     3     700
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Aadorf                       1        10
+  1 Aadorf                       1        10
+  1                              2        10
+  1                              3        10
+  2 Bern                         1        10
+  2 Bern                         1        10
+  2                              2        10
+  2                              3        10
+    Total of all populations     1        40
+                                 2        20
+                                 3        20
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00093  0.00400  0.00643  0.00980  0.01860  0.00817  0.00900
+    1  Theta_2         0.01267  0.02360  0.03330  0.04700  0.08433  0.04090  0.04470
+    1  M_2->1          21.3333  86.6667 173.6667 274.6667 678.6667 301.0000 323.7867
+    1  M_1->2           0.0000  93.3333 148.3333 228.6667 418.6667 190.3333 214.7377
+    2  Theta_1         0.00240  0.00767  0.01797  0.02440  0.05327  0.02163  0.02459
+    2  Theta_2         0.01253  0.01767  0.03237  0.05307  0.09453  0.04743  0.05062
+    2  M_2->1          92.6667 108.0000 142.3333 412.6667 496.6667 405.0000 470.6413
+    2  M_1->2         126.0000 310.0000 379.0000 588.0000 854.0000 444.3333 467.8729
+    3  Theta_1         0.00067  0.00353  0.00603  0.01067  0.02547  0.00923  0.01089
+    3  Theta_2         0.03327  0.04087  0.05477  0.05947  0.09940  0.06277  0.06337
+    3  M_2->1          30.0000 167.3333 294.3333 433.3333 774.6667 367.0000 410.1361
+    3  M_1->2          46.6667  92.6667 127.0000 227.3333 528.6667 205.6667 250.1386
+  All  Theta_1         0.00187  0.00540  0.00763  0.00967  0.01673  0.00823  0.00911
+  All  Theta_2         0.01347  0.03033  0.04397  0.04893  0.08380  0.04463  0.04691
+  All  M_2->1          18.6667 290.6667 319.6667 376.0000 718.6667 301.0000 328.0612
+  All  M_1->2           4.0000 114.6667 176.3333 210.0000 549.3333 190.3333 239.4218
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)     Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1              -2560.54                      -2281.92               -2255.51
+      2               -868.26                       -770.13                -752.01
+      3              -2012.94                      -1759.60               -1730.50
+---------------------------------------------------------------------------------------
+  All                -5436.69                      -4806.58               -4732.96
+[Scaling factor = 5.059894]
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                  15813/31271             0.50568
+Theta_2                  18627/31214             0.59675
+M_2->1                   17099/31359             0.54527
+M_1->2                   17387/31394             0.55383
+Genealogies              14727/174762             0.08427
+
+Autocorrelation and Effective sample size
+-------------------------------------------------------------------
+
+  Parameter         Autocorrelation(*)   Effective Sample size
+  ---------         ---------------      ---------------------
+  Theta_1                0.94276              1804.09
+  Theta_2                0.84499              5060.31
+  M_2->1                 0.95019              1564.45
+  M_1->2                 0.95191              1504.83
+  Ln[Prob(D|P)]          0.80422              6535.03
+  (*) averaged over loci.
+
+
+
+
+
+Assignment of Individuals to populations
+========================================
+
+Individual Locus        1     2 
+---------- -------- ----- ----- 
+?BAG               1 0.298 0.702 
+?BAG               2 0.365 0.635 
+?BAG               3 0.294 0.706 
+?BAG             All 0.092 0.908 
+?BAJ               1 0.278 0.722 
+?BAJ               2 0.393 0.607 
+?BAJ               3 0.308 0.692 
+?BAJ             All 0.100 0.900 
+?BAH               1 0.349 0.651 
+?BAH               2 0.501 0.499 
+?BAH               3 0.515 0.485 
+?BAH             All 0.362 0.638 
+?BAI               1 0.337 0.663 
+?BAI               2 0.438 0.562 
+?BAI               3 0.524 0.476 
+?BAI             All 0.304 0.696 
+?BAF               1 0.349 0.651 
+?BAF               2 0.407 0.593 
+?BAF               3 0.272 0.728 
+?BAF             All 0.121 0.879 

@@ -1,0 +1,49 @@
+"Explain the biology relevant to use the fractional coalescent"
+
+I develop a forward simulator that uses a Dirichlet to generate weights
+that change the chances of offspring for individuals ever generation, each individual draws a weigtht from this dirichlet to mimick effects of the environment. otherwise we use the Wright-Fisher model. This could be used to explained
+potential heterogeneity in a panmictic population or (for the proposal) structred population with heterogenous environment. 
+
+python nestsite.py 100 3000 '1 1 1' > tt111
+
+the population has 100 individuals for 3000 generation using a dirichlet alpha=[1 1 1 ] for the genealogy with equal weights (aka n-coalescence)
+
+python nestsite.py 100 3000 '1 2 4' > tt
+
+then run 
+cat tt | migdata
+(migdata can be compiled with make migdata or gcc migdata.c -o migdata)
+this will generate an infile that is suitable for MIGRATE
+
+generates a biased weight distribution, with 3 different classes. Using these trees to generate data leads to thee two model selection tables
+
+using 1 1 1 which should be equal to the n-coalescent:
+arzak:nestsite>grep "      1      -" out*111* | bf.py 
+Model                       Log(mL)   LBF     Model-probability
+---------------------------------------------------------------
+1:outfile111.0.4:               -1724.45   -28.88        0.0000 
+2:outfile111.0.5:               -1714.37   -18.80        0.0000 
+3:outfile111.0.6:               -1705.36    -9.79        0.0000 
+4:outfile111.0.7:               -1700.21    -4.64        0.0046 
+5:outfile111.0.8:               -1696.81    -1.24        0.1366 
+6:outfile111.0.9:               -1695.77    -0.20        0.3866 
+7:outfile111.1.0:               -1695.57     0.00        0.4722 
+
+the best model is the n-coalescent with alpha=1.0
+
+with a weight of [1 2 4] we get
+arzak:nestsite>grep "      1      -" out* | grep -v 111 | bf.py 
+Model                       Log(mL)   LBF     Model-probability
+---------------------------------------------------------------
+1:outfile0.4:                   -1581.60    -9.78        0.0000 
+2:outfile0.5:                   -1576.78    -4.96        0.0030 
+3:outfile0.6:                   -1573.44    -1.62        0.0857 
+4:outfile0.7:                   -1571.82     0.00        0.4333 
+5:outfile0.8:                   -1572.07    -0.25        0.3374 
+6:outfile0.9:                   -1573.12    -1.30        0.1181 
+7:outfile1.0:                   -1574.78    -2.96        0.0225 
+
+we get alpah=0.7 as the best model, suggesting that
+if biolgical populations suffer ecological heterogeneity in a panmictic population the n-coalescent is a poor model to estimate parameters and we should use the fractional coalescent to establish  whether local heterogeneity is an issue.
+
+

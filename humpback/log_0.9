@@ -1,0 +1,188 @@
+/opt/hpc/gnu/openmpi/bin
+hpc-m35-2-11
+.:/gpfs/home/beerli/bin:/gpfs/research/software/hpc/gnu/openmpi/bin:/opt/hpc/gnu/openmpi/bin:/gpfs/research/software/hpc/gnu/bin:/opt/hpc/gnu/bin:.:/gpfs/home/beerli/bin:/gpfs/home/beerli/valgrind/bin:.:/gpfs/home/beerli/bin/:/opt/python27/anaconda/bin/:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/panfs/storage.local/scs/beerli/scratch/genomics_tools/bin:/gpfs/home/beerli/src/BEASTv1.7.1/bin:/gpfs/home/beerli/java/jdk1.8.0_51/jre/bin:/gpfs/home/beerli/java/jdk1.8.0_51/bin
+hpc-m35-2-11
+/gpfs/research/beerli/scratch/beerli/migrate-mlf2/mittag-leffler/humpback_oct272018_rerun
+Reading parmfile "parmfile_0.9"....
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a PARALLEL COMPUTER ARCHITECTURE
+  One master and 10 compute nodes are available.
+  Using Intel AVX (Advanced Vector Extensions)
+  PDF output enabled [Letter-size]
+  Version 5.0.3a   [January-08-2018]
+  Program started at   Sun Oct 28 09:28:22 2018
+
+
+Master random number seed: 3637901540
+1
+
+
+Reading (1) north_atlantic ...
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Mittag-Leffler with alpha=0.90]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequency 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)  Exponential  0.000000   0.020000   0.900000           -   1500  0.20000
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Data set was subsampled: used a random sample of size: 20
+with private random number seed 163
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           3637901540
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 north_atla     * 
+
+
+
+Mutation rate is constant 
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):             100000000
+      Steps recorded (sample*rep):                    100000
+   Combining over replicates:                             10
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              5000000
+
+Print options:
+   Data file:                       infile.humpback_northern
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):       outfile_humpbacknorth_0.9
+   Output file (PDF):          outfile_humpbacknorth_0.9.pdf
+   Posterior distribution:                         bayesfile
+   All values of Post.Dist:   bayesallfile_humpbacknorth_0.9
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                    Humpback whales: Northern Atlantic
+Data file:                          infile.humpback_northern
+Datatype:                                     Haplotype data
+Number of loci:                                            1
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.33 0.19 0.13 0.35, t/t ratio=18.080]
+
+Data set was subsampled and used a random sample of size: 20
+
+Locus Population Individuals
+----- ---------- ---------------------------------------------------------------------
+    1 north_atla MMASKLIKE 13pals01 04pals04 17pals23 17pals04 28pals02 02pals14 
+                 17pals11 17pals20 27pals01 26pals07 MTORCH 23pals19 MCLIPPER DR15 DR13 
+                 02pals03 Ice02 07pals01 02pals10 
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     283
+
+Site Rate variation per locus
+-----------------------------
+
+Locus Sublocus Region type     Rate of change    Probability  Patch size
+--------------------------------------------------------------------------
+   1       1        1           0.418            0.706            1.000
+   1       1        2           2.260            0.283            1.000
+   1       1        3           6.161            0.011            1.000
+
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 north_atlantic               1       188
+    Total of all populations     1       188
+
+[  1] 09:28:22   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 1/10) 
+[ 10] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 3/10) 
+[  3] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 2/10) 
+[  8] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 5/10) 
+[  5] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 8/10) 
+[  6] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 7/10) 
+[  4] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 9/10) 
+[  2] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 10/10) 
+[  9] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 4/10) 
+[  7] 09:28:42   Burn-in of 5000000 steps (Locus: 1/1, Replicate: 6/10) 
+[  1] 09:39:04   Sampling of 10000000 steps (Locus: 1/1, Replicate: 1/10) 
+[  8] 09:39:21   Sampling of 10000000 steps (Locus: 1/1, Replicate: 5/10) 
+[  7] 09:39:24   Sampling of 10000000 steps (Locus: 1/1, Replicate: 6/10) 
+[  5] 09:39:24   Sampling of 10000000 steps (Locus: 1/1, Replicate: 8/10) 
+[  6] 09:39:24   Sampling of 10000000 steps (Locus: 1/1, Replicate: 7/10) 
+[  9] 09:39:25   Sampling of 10000000 steps (Locus: 1/1, Replicate: 4/10) 
+[  3] 09:39:25   Sampling of 10000000 steps (Locus: 1/1, Replicate: 2/10) 
+[  2] 09:39:25   Sampling of 10000000 steps (Locus: 1/1, Replicate: 10/10) 
+[ 10] 09:39:26   Sampling of 10000000 steps (Locus: 1/1, Replicate: 3/10) 
+[  4] 09:39:26   Sampling of 10000000 steps (Locus: 1/1, Replicate: 9/10) 
+[  1] 10:01:12   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(775570,188776,0)
+[  8] 10:01:21   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(779323,184090,0)
+[  7] 10:01:27   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(774719,189613,0)
+[  5] 10:01:28   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(771643,190598,0)
+[  9] 10:01:30   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(776463,190020,0)
+[  6] 10:01:31   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(774538,190003,0)
+[  2] 10:01:32   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(767905,189830,0)
+[  3] 10:01:32   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(771149,188843,0)
+[ 10] 10:01:35   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(773470,185333,0)
+[  4] 10:01:38   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.16,0.27,0.38,1.60) Swap(775000,189887,0)
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus          TI(1a)       BTI(1b)         SS(2)         HS(3)
+---------------------------------------------------------------
+      1       -605.00       -532.95       -407.77       -513.18
+
+
+(1a) TI: Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) BTI: Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  SS: Steppingstone Sampling (Xie et al 2011)
+(3)  HS: Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+10:01:58   Program finished

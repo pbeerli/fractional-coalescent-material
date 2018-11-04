@@ -1,0 +1,19 @@
+A.
+this plots a histogram of the best alpha found using marginal likelihoods
+and then plotting the truth (y) as histograms of the estimated
+a test run with 100 loci from sim100 in the rANGE of alpha 0.4-1.0 looks OK
+tr -s '_: ' ' ' < gugus | awk '{print $3,$4}' | python hist.py -c
+see hist.pdf in sim100_*
+
+the file 'gugus' was produced using bf_indloci.py
+
+
+#to create figure 2 in the mlf paper
+rm gugus
+create_gugus
+tr -s '_: ' ' ' < gugus | awk '{print $4,$5}' | python hist.py -c
+
+B.
+this also contains all files involving the simulations with structured populations: structure_test
+
+

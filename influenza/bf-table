@@ -1,0 +1,15 @@
+Model                                 Log(mL)   LBF     Model-probability
+-------------------------------------------------------------------------
+1: outfile_influenza_0.4:                  -19378.29   -27.06        0.0000 
+2: outfile_influenza_0.45:                 -19368.97   -17.74        0.0000 
+3: outfile_influenza_0.5:                  -19362.03   -10.80        0.0000 
+4: outfile_influenza_0.55:                 -19356.93    -5.70        0.0016 
+5: outfile_influenza_0.6:                  -19353.43    -2.20        0.0517 
+6: outfile_influenza_0.65:                 -19351.68    -0.45        0.2974 
+7: outfile_influenza_0.7:                  -19351.23     0.00        0.4665 
+8: outfile_influenza_0.75:                 -19352.28    -1.05        0.1632 
+9: outfile_influenza_0.8:                  -19354.43    -3.20        0.0190 
+10: outfile_influenza_0.85:                 -19357.96    -6.73        0.0006 
+11: outfile_influenza_0.9:                  -19362.76   -11.53        0.0000 
+12: outfile_influenza_0.95:                 -19368.86   -17.63        0.0000 
+13: outfile_influenza_1.0:                  -19376.93   -25.70        0.0000 
