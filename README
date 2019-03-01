@@ -2,7 +2,12 @@ This directory contains sources and raw results for the manuscript submitted to 
 
 "The fractional Coalescent"
 
-the directuries: humpback, plasmodium, and influenza were used as the real data examples. The directory sim contains simulated data to show difficulties to recover alpha from unknown sequence data. The directory heterogeneity contains the dataset that were generated with the simulation program nestsite.py and migdata and then analyzed.
+The directories: 
+humpback, plasmodium, and influenza were used as the real data examples. 
 
-mkdir sources contains snapshots of the software used: migrate version 5.0a, nestsite.py
+sim contains simulated data to show difficulties to recover alpha from unknown sequence data. 
+
+heterogeneity contains the dataset that were generated with the simulation program nestsite.py and migdata and then analyzed.
+
+sources contains snapshots of the software used: migrate version 5.0a, nestsite.py
 
